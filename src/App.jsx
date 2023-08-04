@@ -11,6 +11,12 @@ function App() {
       <TopNav />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
+        {/*What I Do */}
+        {/*Skills */}
+        {/*testimonials carousel */}
+        {/*Projects */}
+        {/*Resume "roadmap"*/}
+        {/*Contact section*/}
       </div>
     </div>
   );
