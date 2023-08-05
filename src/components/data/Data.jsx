@@ -4,6 +4,7 @@ import {
   FaMobile,
   FaLaptopCode,
   FaNetworkWired,
+  FaUsers,
 } from "react-icons/fa";
 import { SiProgress, SiNintendonetwork } from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
@@ -14,19 +15,25 @@ export const featuresData = [
   {
     id: 1,
     icon: <FaLaptopCode />,
-    title: "Software development",
-    des: "I have done different software developtment projects on my free-time but also as a part of my work",
+    title: "Software Engineering",
+    des: "I have embarked on diverse software development ventures during my free time as well as part of my professional journey.",
   },
   {
     id: 2,
-    icon: <FaMobile />,
-    title: "Mobile Development",
-    des: "I have some experience working with Flutter/Dart and I am learning more at the moment",
+    icon: <FaUsers />,
+    title: "User-Centered Design",
+    des: "In all my projects, I prioritize seamless user experiences and cutting-edge UI/UX designs.",
   },
   {
     id: 3,
+    icon: <FaMobile />,
+    title: "Mobile App Development",
+    des: "I possess hands-on experience with Flutter/Dart and am continuously expanding my proficiency in this domain.",
+  },
+  {
+    id: 4,
     icon: <FaNetworkWired />,
-    title: "Networking",
-    des: "Will learn this soon in near future !",
+    title: "Network Management",
+    des: "My role as a technical specialist at Telia enabled me to work extensively with networks and advanced networking tools.",
   },
 ];

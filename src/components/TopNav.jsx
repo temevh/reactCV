@@ -5,7 +5,13 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 
-const navElements = ["About me", "Skills", "Projects", "Contact me!"];
+const navElements = [
+  "About me",
+  "Features",
+  "Skills",
+  "Projects",
+  "Contact me!",
+];
 
 function TopNav() {
   return (

@@ -22,12 +22,12 @@ const Media = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <SiGithub />
+              <SiGithub style={iconStyle} />
             </a>
           </span>
           <span className="bannerIcon">
             <a href="instagram.com/titeemu">
-              <SiInstagram />
+              <SiInstagram style={iconStyle} />
             </a>
           </span>
           <span className="bannerIcon">
@@ -36,7 +36,7 @@ const Media = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedinIn />
+              <FaLinkedinIn style={iconStyle} />
             </a>
           </span>
         </div>
@@ -47,24 +47,28 @@ const Media = () => {
         </h2>
         <div className="flex gap-2">
           <span className="bannerIcon">
-            <FaReact />
+            <FaReact style={iconStyle} />
           </span>
           <span className="bannerIcon">
-            <SiTypescript />
+            <SiTypescript style={iconStyle} />
           </span>
           <span className="bannerIcon">
-            <SiFlutter />
+            <SiFlutter style={iconStyle} />
           </span>
           <span className="bannerIcon">
-            <SiPostgresql />
+            <SiPostgresql style={iconStyle} />
           </span>
           <span className="bannerIcon">
-            <SiMongodb />
+            <SiMongodb style={iconStyle} />
           </span>
         </div>
       </div>
     </div>
   );
+};
+
+const iconStyle = {
+  color: "#FF6B6B",
 };
 
 export default Media;
