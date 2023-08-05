@@ -7,6 +7,7 @@ const LeftBanner = () => {
     words: [
       "A full stack developer. ",
       "A computer science student. ",
+      "A seasoned entrepreneur",
       "An avid gym goer. ",
       "A full-time nerd.",
     ],

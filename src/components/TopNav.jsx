@@ -11,7 +11,7 @@ function TopNav() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={AppBarStyles}>
-        <Toolbar sx={{ justifyContent: "space-between" }}>
+        <Toolbar sx={toolbarStyles}>
           <Typography variant="h6" component="div" sx={nameStyles}>
             <b>TH</b>
           </Typography>
@@ -36,7 +36,7 @@ function TopNav() {
 export default TopNav;
 
 const AppBarStyles = {
-  backgroundColor: "#000000",
+  backgroundColor: "#212428",
   color: "#ffffff",
   boxShadow: "none",
   borderBottom: "3px solid #5A5A5A",
@@ -48,6 +48,12 @@ const nameStyles = {
   fontWeight: "400",
   letterSpacing: "0.3rem",
   color: "#ffffff",
+};
+
+const toolbarStyles = {
+  justifyContent: "space-between",
+  paddingLeft: "24px", // Adjust as needed
+  paddingRight: "24px", // Adjust as needed
 };
 
 const buttonStyles = {

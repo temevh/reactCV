@@ -8,6 +8,7 @@ import {
   SiPostgresql,
   SiFlutter,
   SiTypescript,
+  SiInstagram,
 } from "react-icons/si";
 const Media = () => {
   return (
@@ -25,8 +26,8 @@ const Media = () => {
             </a>
           </span>
           <span className="bannerIcon">
-            <a href="mailto:temehama@gmail.com">
-              <SiGmail />
+            <a href="instagram.com/titeemu">
+              <SiInstagram />
             </a>
           </span>
           <span className="bannerIcon">

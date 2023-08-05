@@ -1,9 +1,9 @@
 import "./App.css";
 import TopNav from "./components/TopNav";
 import Banner from "./components/Banner/Banner";
+import Features from "./Features/Features";
 
-//https://www.ojieame.design/
-//https://reactjsexample.com/a-professionally-designed-portfolio-website-using-reactjs/
+//https://github.com/mihirc0111/Portfolio-Mihir-React-Tailwind/tree/master
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <TopNav />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
+        <Features />
         {/*What I Do */}
         {/*Skills */}
         {/*testimonials carousel */}
