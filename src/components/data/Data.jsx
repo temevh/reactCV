@@ -1,6 +1,11 @@
 import { AiFillAppstore } from "react-icons/ai";
-import { FaBrain } from "react-icons/fa";
-import { SiProgress } from "react-icons/si";
+import {
+  FaBrain,
+  FaMobile,
+  FaLaptopCode,
+  FaNetworkWired,
+} from "react-icons/fa";
+import { SiProgress, SiNintendonetwork } from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
 import { MdAnalytics } from "react-icons/md";
 
@@ -8,37 +13,20 @@ import { MdAnalytics } from "react-icons/md";
 export const featuresData = [
   {
     id: 1,
-    title: "Project Management",
-    des: "Want to gain real-life experience of managing a complete software project cycle.",
+    icon: <FaLaptopCode />,
+    title: "Software development",
+    des: "I have done different software developtment projects on my free-time but also as a part of my work",
   },
   {
     id: 2,
-    icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Will learn this soon in near future !",
+    icon: <FaMobile />,
+    title: "Mobile Development",
+    des: "I have some experience working with Flutter/Dart and I am learning more at the moment",
   },
   {
     id: 3,
-    icon: <SiProgress />,
-    title: "SEO Optimisation",
+    icon: <FaNetworkWired />,
+    title: "Networking",
     des: "Will learn this soon in near future !",
-  },
-  {
-    id: 4,
-    icon: <CgWebsite />,
-    title: "Web Development",
-    des: "Have completed a MERN stack development course from Udemy. Have developed various projects and hosted them too, check them on my github.",
-  },
-  {
-    id: 5,
-    icon: <MdAnalytics />,
-    title: "Data Analyst",
-    des: "Learned data extraction,cleaning, pattern identification & web scrapping skills during my internship. ALso, trained the ML models.",
-  },
-  {
-    id: 6,
-    icon: <FaBrain />,
-    title: "Machine Learning",
-    des: "Have completed a ML course from Acmegrade(Partner Mood Indigo IITB). Have developed some projects, check them on my github.",
   },
 ];
