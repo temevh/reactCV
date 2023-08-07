@@ -4,6 +4,7 @@ import Banner from "./components/Banner/Banner";
 import Features from "./Features/Features";
 import Projects from "./Projects/Projects";
 import Timeline from "./components/Timeline/Timeline";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 //https://github.com/mihirc0111/Portfolio-Mihir-React-Tailwind/tree/master
 
@@ -15,9 +16,9 @@ function App() {
         <Banner />
         <Features />
         {/*Skills */}
+        <Testimonials />
         {/*testimonials carousel */}
         {/*Projects */}
-        {/*Resume "roadmap"*/}
         <Timeline />
         {/*Contact section*/}
       </div>

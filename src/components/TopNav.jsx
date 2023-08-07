@@ -15,27 +15,29 @@ const navElements = [
 
 function TopNav() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={AppBarStyles}>
-        <Toolbar sx={toolbarStyles}>
-          <Typography variant="h6" component="div" sx={nameStyles}>
-            <b>TH</b>
-          </Typography>
-          <div>
-            {navElements.map((element, index) => (
-              <Button
-                key={index}
-                variant="h6"
-                component="div"
-                sx={buttonStyles}
-              >
-                {element}
-              </Button>
-            ))}
-          </div>
-        </Toolbar>
-      </AppBar>
-    </Box>
+    <div className="w-full h-16 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+      <Box sx={{ flexGrow: 1 }}>
+        <AppBar position="static" sx={AppBarStyles}>
+          <Toolbar sx={toolbarStyles}>
+            <Typography variant="h6" component="div" sx={nameStyles}>
+              <b>TH</b>
+            </Typography>
+            <div>
+              {navElements.map((element, index) => (
+                <Button
+                  key={index}
+                  variant="h6"
+                  component="div"
+                  sx={buttonStyles}
+                >
+                  {element}
+                </Button>
+              ))}
+            </div>
+          </Toolbar>
+        </AppBar>
+      </Box>
+    </div>
   );
 }
 

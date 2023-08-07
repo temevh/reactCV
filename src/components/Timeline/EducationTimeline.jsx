@@ -9,33 +9,7 @@ import TimelineOppositeContent, {
   timelineOppositeContentClasses,
 } from "@mui/lab/TimelineOppositeContent";
 import { FaSchool } from "react-icons/fa";
-
-const educationItems = [
-  {
-    title: "High school",
-    subtitle: "Jyväskylän Lyseon Lukio",
-    date: "2017-2020",
-    icon: "school",
-  },
-  {
-    title: "Bachelor of computer science, 1st and 2nd year",
-    subtitle: "Lappeenranta University of Technology",
-    date: "2021-2023",
-    icon: "school",
-  },
-  {
-    title: "Bachelor of computer science, 3rd year",
-    subtitle: "Tampere university",
-    date: "2023-2024",
-    icon: "school",
-  },
-  {
-    title: "Master of computer science",
-    subtitle: "Tampere university",
-    date: "2024-",
-    icon: "school",
-  },
-];
+import { educationItems } from "../data/Data";
 
 const EducationTimeline = () => {
   return (
@@ -46,30 +20,34 @@ const EducationTimeline = () => {
         },
       }}
     >
-      {educationItems.map((item) => (
-        <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body1"
-            color="#c4cfde"
-          >
-            {item.date}
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineDot color="primary" variant="outlined">
-              <FaSchool />
-            </TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <h3 className="text-xl font-bold font-titleFont text-designColor">
-              {item.title}
-            </h3>
-            <p className="text-lg">{item.subtitle}</p>
-          </TimelineContent>
-        </TimelineItem>
-      ))}
+      {educationItems
+        .slice(0)
+        .reverse()
+        .map((item) => (
+          <TimelineItem>
+            <TimelineOppositeContent
+              key={item.title}
+              sx={{ m: "auto 0" }}
+              align="right"
+              variant="body1"
+              color="#c4cfde"
+            >
+              {item.date}
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineDot color="primary" variant="outlined">
+                <FaSchool />
+              </TimelineDot>
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent sx={{ py: "12px", px: 2 }}>
+              <h3 className="text-xl font-bold font-titleFont text-designColor">
+                {item.title}
+              </h3>
+              <p className="text-lg">{item.subtitle}</p>
+            </TimelineContent>
+          </TimelineItem>
+        ))}
     </Timeline>
   );
 };
