@@ -51,8 +51,8 @@ const EducationTimeline = () => {
           <TimelineOppositeContent
             sx={{ m: "auto 0" }}
             align="right"
-            variant="body2"
-            color="#FF6B6B"
+            variant="body1"
+            color="#c4cfde"
           >
             {item.date}
           </TimelineOppositeContent>
@@ -63,7 +63,9 @@ const EducationTimeline = () => {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <h3 className="text-xl font-bold">{item.title}</h3>
+            <h3 className="text-xl font-bold font-titleFont text-designColor">
+              {item.title}
+            </h3>
             <p className="text-lg">{item.subtitle}</p>
           </TimelineContent>
         </TimelineItem>
