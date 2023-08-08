@@ -6,6 +6,7 @@ import {
   FaNetworkWired,
   FaUsers,
 } from "react-icons/fa";
+import { MdWebhook } from "react-icons/md";
 import { SiProgress, SiNintendonetwork } from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
 import { MdAnalytics } from "react-icons/md";
@@ -26,12 +27,18 @@ export const featuresData = [
   },
   {
     id: 3,
+    icon: <MdWebhook />,
+    title: "API usage",
+    des: "I have used a number of different APIs and feel comforatble using them in my projects.",
+  },
+  {
+    id: 4,
     icon: <FaMobile />,
     title: "Mobile App Development",
     des: "I possess hands-on experience with Flutter/Dart and am continuously expanding my proficiency in this domain.",
   },
   {
-    id: 4,
+    id: 5,
     icon: <FaNetworkWired />,
     title: "Network Management",
     des: "My role as a technical specialist at Telia enabled me to work extensively with networks and advanced networking tools.",
@@ -124,5 +131,162 @@ export const testimonials = [
     title: "CEO",
     org: "XYZ Company",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+  },
+];
+
+export const mostUsed = [
+  {
+    id: 2,
+    name: "React",
+    skill: 40,
+  },
+  {
+    id: 3,
+    name: "Javascript",
+    skill: 60,
+  },
+  {
+    id: 4,
+    name: "Html",
+    skill: 60,
+  },
+  {
+    id: 5,
+    name: "css",
+    skill: 60,
+  },
+  {
+    id: 6,
+    name: "Node",
+    skill: 60,
+  },
+  {
+    id: 7,
+    name: "Mongo",
+    skill: 60,
+  },
+  {
+    id: 11,
+    name: "Postgre",
+    skill: 60,
+  },
+  {
+    id: 8,
+    name: "Git",
+    skill: 60,
+  },
+  {
+    id: 9,
+    name: "Typescript",
+    skill: 60,
+  },
+  {
+    id: 10,
+    name: "vscode",
+    skill: 60,
+  },
+];
+
+export const someExperience = [
+  {
+    id: 1,
+    name: "Python",
+    skill: 40,
+  },
+  {
+    id: 1,
+    name: "Java",
+    skill: 40,
+  },
+  {
+    id: 2,
+    name: "C",
+    skill: 40,
+  },
+  {
+    id: 3,
+    name: "Dart",
+    skill: 60,
+  },
+  {
+    id: 4,
+    name: "Flutter",
+    skill: 60,
+  },
+  {
+    id: 5,
+    name: "Tailwind",
+    skill: 60,
+  },
+  {
+    id: 6,
+    name: "Redux",
+    skill: 60,
+  },
+  {
+    id: 7,
+    name: "Androidstudio",
+    skill: 60,
+  },
+  {
+    id: 8,
+    name: "Docker",
+    skill: 60,
+  },
+  {
+    id: 9,
+    name: "Firebase",
+    skill: 60,
+  },
+];
+
+export const learning = [
+  {
+    id: 1,
+    name: "Flutter",
+    skill: 40,
+  },
+  {
+    id: 2,
+    name: "Tailwind",
+    skill: 40,
+  },
+  {
+    id: 3,
+    name: "Redux",
+    skill: 60,
+  },
+  {
+    id: 4,
+    name: "React",
+    skill: 60,
+  },
+  {
+    id: 5,
+    name: "Node",
+    skill: 60,
+  },
+];
+
+export const wantingToLean = [
+  {
+    id: 1,
+    name: "Rust",
+    skill: 40,
+  },
+  {
+    id: 2,
+    name: "Python",
+    skill: 40,
+  },
+  {
+    id: 3,
+    name: "Deno",
+    skill: 60,
+  },
+  {
+    id: 3,
+    name: "Next",
+    skill: 60,
   },
 ];
