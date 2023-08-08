@@ -1,77 +1,36 @@
-import * as React from "react";
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
+import React from "react";
+import { Link } from "react-scroll";
+import { navLinksdata } from "./data/Data";
 
-const navElements = [
-  "About me",
-  "Features",
-  "Skills",
-  "Projects",
-  "Contact me!",
-];
-
-function TopNav() {
+const TopNav = () => {
   return (
-    <div className="w-full h-16 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static" sx={AppBarStyles}>
-          <Toolbar sx={toolbarStyles}>
-            <Typography variant="h6" component="div" sx={nameStyles}>
-              <b>TH</b>
-            </Typography>
-            <div>
-              {navElements.map((element, index) => (
-                <Button
-                  key={index}
-                  variant="h6"
-                  component="div"
-                  sx={buttonStyles}
-                >
-                  {element}
-                </Button>
-              ))}
-            </div>
-          </Toolbar>
-        </AppBar>
-      </Box>
+    <div className="w-full h-20 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 pr-4 pl-4">
+      <div className="flex items-center">
+        <p className="font-bold text-5xl">TH</p>
+      </div>
+      <div className="md:flex items-center justify-end gap-1 lg:gap-4">
+        <ul className="hidden md:inline-flex items-center gap-1 lg:gap-4">
+          {navLinksdata.map(({ _id, title, link }) => (
+            <li
+              className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+              key={_id}
+            >
+              <Link
+                activeClass="active"
+                to={link}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                {title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
-}
+};
 
 export default TopNav;
-
-const AppBarStyles = {
-  backgroundColor: "#212428",
-  color: "#ffffff",
-  boxShadow: "none",
-  borderBottom: "3px solid #5A5A5A",
-};
-
-const nameStyles = {
-  textTransform: "capitalize",
-  fontSize: "2rem",
-  fontWeight: "400",
-  letterSpacing: "0.3rem",
-  color: "#ffffff",
-};
-
-const toolbarStyles = {
-  justifyContent: "space-between",
-  paddingLeft: "24px", // Adjust as needed
-  paddingRight: "24px", // Adjust as needed
-};
-
-const buttonStyles = {
-  textTransform: "capitalize",
-  fontSize: "1.2rem",
-  fontWeight: "400",
-  letterSpacing: "0.3rem",
-  color: "#ffffff",
-  "&:hover": {
-    backgroundColor: "#FF6B6B",
-    color: "#000000",
-  },
-};

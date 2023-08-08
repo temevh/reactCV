@@ -1,15 +1,43 @@
-import { AiFillAppstore } from "react-icons/ai";
 import {
-  FaBrain,
   FaMobile,
   FaLaptopCode,
   FaNetworkWired,
   FaUsers,
 } from "react-icons/fa";
 import { MdWebhook } from "react-icons/md";
-import { SiProgress, SiNintendonetwork } from "react-icons/si";
-import { CgWebsite } from "react-icons/cg";
-import { MdAnalytics } from "react-icons/md";
+
+export const navLinksdata = [
+  {
+    _id: 1001,
+    title: "Home",
+    link: "home",
+  },
+  {
+    _id: 1002,
+    title: "Features",
+    link: "features",
+  },
+  {
+    _id: 1003,
+    title: "Skills",
+    link: "skills",
+  },
+  {
+    _id: 1004,
+    title: "Projects",
+    link: "projects",
+  },
+  {
+    _id: 1005,
+    title: "Career & education",
+    link: "career",
+  },
+  {
+    _id: 1006,
+    title: "Contact",
+    link: "contact",
+  },
+];
 
 // Features Data
 export const featuresData = [

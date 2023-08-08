@@ -17,9 +17,8 @@ function App() {
         <Banner />
         <Features />
         <Skills />
+        <Projects />
         <Testimonials />
-        {/*testimonials carousel */}
-        {/*Projects */}
         <Timeline />
         {/*Contact section*/}
       </div>

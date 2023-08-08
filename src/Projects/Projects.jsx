@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import Masonry from "@mui/lab/Masonry";
+import Title from "../components/Layouts/Title";
 
 const heights = [
   150, 30, 90, 70, 110, 150, 130, 80, 50, 90, 100, 150, 30, 50, 80,
@@ -18,15 +19,12 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const Projects = () => {
   return (
-    <Box sx={{ width: 1000, minHeight: 393 }}>
-      <Masonry columns={6} spacing={2}>
-        {heights.map((height, index) => (
-          <Item key={index} sx={{ height }}>
-            {index + 1}
-          </Item>
-        ))}
-      </Masonry>
-    </Box>
+    <section
+      id="projects"
+      className="w-full py-10 border-b-[1px] border-b-black"
+    >
+      <Title title="Projects" des="What I have done" />
+    </section>
   );
 };
 
