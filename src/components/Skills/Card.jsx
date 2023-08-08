@@ -88,8 +88,8 @@ const Card = ({ skill }) => {
                 src={skillIcon}
               />
             </div>
-            <p className="col-span-2 font-bold">Where?</p>
-            <p className="col-span-2 break-words pb-2">{skill.where}</p>
+            <p className="col-span-2 font-bold -mb-2">Where?</p>
+            <p className="col-span-2 break-words">{skill.where}</p>
             <p className="col-span-2 font-bold">Confidence</p>
             <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
               <div
