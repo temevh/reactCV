@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedinIn, FaReact, FaTypescript } from "react-icons/fa";
+import { FaLinkedinIn, FaReact, FaTypescript, FaDiscord } from "react-icons/fa";
 import {
   SiMongodb,
   SiExpress,
@@ -39,9 +39,18 @@ const Media = () => {
               <FaLinkedinIn style={iconStyle} />
             </a>
           </span>
+          <span className="bannerIcon">
+            <a
+              href="https://www.linkedin.com/in/temevh/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaDiscord style={iconStyle} />
+            </a>
+          </span>
         </div>
       </div>
-      <div>
+      {/*<div>
         <h2 className="text-base uppercase font-titleFont mb-4">
           MOST USED TECHNOLOGIES
         </h2>
@@ -62,7 +71,7 @@ const Media = () => {
             <SiMongodb style={iconStyle} />
           </span>
         </div>
-      </div>
+  </div>*/}
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import python from "../../assets/icons/python.png";
 import js from "../../assets/icons/js.png";
 import react from "../../assets/icons/react.png";
@@ -30,13 +30,13 @@ const skillIconMap = {
   Javascript: js,
   React: react,
   Html: html,
-  css: css,
+  CSS: css,
   Node: node,
-  Mongo: mongo,
+  MongoDb: mongo,
   Git: git,
   Typescript: ts,
   vscode: vscode,
-  Postgre: postgre,
+  PostgreSQL: postgre,
 
   Java: java,
   C: c,
@@ -55,14 +55,53 @@ const skillIconMap = {
 
 const Card = ({ skill }) => {
   const skillIcon = skillIconMap[skill.name];
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
 
   return (
-    <div className="w-16 h-16 rounded-lg flex items-center justify-center transition-shadow duration-200 ease-linear transform hover:shadow-xl hover:-translate-y-1 hover:shadow-designColor/100">
-      <img
-        className="h-12 w-12 max-w-full rounded-lg shadow-none"
-        src={skillIcon}
-        alt={`${skill} Icon`}
-      />
+    <div
+      className="relative flex flex-col items-center"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <div className="w-16 h-16 rounded-lg flex items-center justify-center transition-shadow duration-200 ease-linear transform hover:shadow-xl hover:-translate-y-1 hover:shadow-designColor/100">
+        <img
+          className="h-12 w-12 max-w-full rounded-lg shadow-none"
+          src={skillIcon}
+          alt={`${skill} Icon`}
+        />
+      </div>
+      {isHovered && (
+        <div className="absolute z-50 w-40 max-w-sm mt-3 p-4 bg-bodyColor border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-shadow duration-200 ease-linear transform hover:shadow-xl hover:-translate-y-1 hover:shadow-designColor/100">
+          <div className="grid grid-cols-2 gap-3">
+            <div className="flex items-center">
+              <p className="text-lg pb-2 font-italic">{skill.name}</p>
+              <img
+                className="h-8 w-8 max-w-full rounded-lg shadow-none ml-1"
+                src={skillIcon}
+              />
+            </div>
+            <p className="col-span-2 font-bold">Where?</p>
+            <p className="col-span-2 break-words pb-2">{skill.where}</p>
+            <p className="col-span-2 font-bold">Confidence</p>
+            <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+              <div
+                className="bg-blue-600 text-md font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+                style={{ width: `${skill.confidence}%` }}
+              >
+                {skill.confidence}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
