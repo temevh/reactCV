@@ -53,7 +53,7 @@ const skillIconMap = {
   Next: next,
 };
 
-const Card = ({ skill }) => {
+const CardLearning = ({ skill }) => {
   const skillIcon = skillIconMap[skill.name];
   const [isHovered, setIsHovered] = useState(false);
 
@@ -64,8 +64,6 @@ const Card = ({ skill }) => {
   const handleMouseLeave = () => {
     setIsHovered(false);
   };
-
-  const name = skill.name === "Androidstudio" ? "Android Studio" : skill.name;
 
   return (
     <div
@@ -84,23 +82,14 @@ const Card = ({ skill }) => {
         <div className="absolute z-50 w-40 max-w-sm mt-3 p-4 bg-bodyColor border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-shadow duration-200 ease-linear transform hover:shadow-xl hover:-translate-y-1 hover:shadow-designColor/100">
           <div className="grid grid-cols-2 gap-3">
             <div className="flex items-center">
-              <p className="text-lg pb-2 font-italic">{name}</p>
+              <p className="text-lg pb-2 font-italic">{skill.name}</p>
               <img
                 className="h-8 w-8 max-w-full rounded-lg shadow-none ml-1"
                 src={skillIcon}
               />
             </div>
-            <p className="col-span-2 font-bold -mb-2">Where?</p>
-            <p className="col-span-2 break-words">{skill.where}</p>
-            <p className="col-span-2 font-bold">Confidence</p>
-            <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-              <div
-                className="bg-blue-600 text-md font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
-                style={{ width: `${skill.confidence}%` }}
-              >
-                {skill.confidence}
-              </div>
-            </div>
+            <p className="col-span-2 font-bold -mb-2">Why?</p>
+            <p className="col-span-2 break-words">{skill.why}</p>
           </div>
         </div>
       )}
@@ -108,4 +97,4 @@ const Card = ({ skill }) => {
   );
 };
 
-export default Card;
+export default CardLearning;

@@ -229,52 +229,62 @@ export const someExperience = [
   {
     id: 1,
     name: "Python",
-    skill: 40,
+    confidence: 40,
+    where: "On a few school courses and some personal projects",
   },
   {
     id: 1,
     name: "Java",
-    skill: 40,
+    confidence: 40,
+    where: "During an OOP course at school",
   },
   {
     id: 2,
     name: "C",
-    skill: 40,
+    confidence: 40,
+    where: "On a few school courses",
   },
   {
     id: 3,
     name: "Dart",
-    skill: 60,
+    confidence: 60,
+    where: "During an UI/UX course at school",
   },
   {
     id: 4,
     name: "Flutter",
-    skill: 60,
+    confidence: 60,
+    where: "During an UI/UX course at school",
   },
   {
     id: 5,
     name: "Tailwind",
-    skill: 60,
+    confidence: 40,
+    where: "Creating this website",
   },
   {
     id: 6,
     name: "Redux",
-    skill: 60,
+    confidence: 30,
+    where: "In a few React projects to handle state management",
   },
   {
     id: 7,
     name: "Androidstudio",
-    skill: 60,
+    confidence: 50,
+    where: "During an OOP course at school",
   },
   {
     id: 8,
     name: "Docker",
-    skill: 60,
+    confidence: 30,
+    where: "At work a few times",
   },
   {
     id: 9,
     name: "Firebase",
-    skill: 60,
+    confidence: 60,
+    where: "With personal projects",
   },
 ];
 
@@ -283,26 +293,31 @@ export const learning = [
     id: 1,
     name: "Flutter",
     skill: 40,
+    why: "I want to learn how to create mobile apps",
   },
   {
     id: 2,
     name: "Tailwind",
     skill: 40,
+    why: "I want to learn how to create stylish websites",
   },
   {
     id: 3,
     name: "Redux",
     skill: 60,
+    why: "I want to learn how to manage state more effectively",
   },
   {
     id: 4,
     name: "React",
     skill: 60,
+    why: "I want to learn how to create more complex websites and apps",
   },
   {
     id: 5,
     name: "Node",
     skill: 60,
+    why: "I want to learn how to create more complex websites and apps",
   },
 ];
 
@@ -310,21 +325,21 @@ export const wantingToLean = [
   {
     id: 1,
     name: "Rust",
-    skill: 40,
+    why: "I have heard a lot of good things about Rust and want to learn it",
   },
   {
     id: 2,
     name: "Python",
-    skill: 40,
+    why: "I want to deepen my previous knowledge of Python",
   },
   {
     id: 3,
     name: "Deno",
-    skill: 60,
+    why: "I want to learn how to create and deploy apps with Deno",
   },
   {
     id: 3,
     name: "Next",
-    skill: 60,
+    why: "I want to learn how to create and deploy apps with Next",
   },
 ];

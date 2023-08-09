@@ -1,4 +1,5 @@
 import Card from "./Card";
+import CardLearning from "./CardLearning";
 import Title from "../Layouts/Title";
 import {
   mostUsed,
@@ -14,7 +15,14 @@ const Skills = () => {
       <p className="italic font-md -mt-8 text-slate-300/50">
         Psst! Hover for more info
       </p>
-      <div className="grid grid-cols-1">
+      <div
+        className="grid grid-cols-1"
+        data-te-animation-init
+        data-te-animation-start="onScroll"
+        data-te-animation-on-scroll="repeat"
+        data-te-animation-reset="true"
+        data-te-animation="[slide-right_1s_ease-in-out]"
+      >
         <p className="text-left text-4xl font-bold whitespace-nowrap mt-2 mb-2">
           Most used
         </p>
@@ -41,7 +49,7 @@ const Skills = () => {
           </p>
           <div className="grid grid-cols-7">
             {learning.map((skill) => (
-              <Card skill={skill} />
+              <CardLearning skill={skill} />
             ))}
           </div>
         </div>
@@ -51,7 +59,7 @@ const Skills = () => {
           </p>
           <div className="grid grid-cols-6 ">
             {wantingToLean.map((skill) => (
-              <Card skill={skill} />
+              <CardLearning skill={skill} />
             ))}
           </div>
         </div>
