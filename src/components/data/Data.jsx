@@ -5,6 +5,7 @@ import {
   FaUsers,
 } from "react-icons/fa";
 import { MdWebhook } from "react-icons/md";
+import Certificates from "../Accolades/Certificates";
 
 export const navLinksdata = [
   {
@@ -34,6 +35,11 @@ export const navLinksdata = [
   },
   {
     _id: 1006,
+    title: "Accolades",
+    link: "accolades",
+  },
+  {
+    _id: 1007,
     title: "Contact",
     link: "contact",
   },
@@ -341,5 +347,71 @@ export const wantingToLean = [
     id: 3,
     name: "Next",
     why: "I want to learn how to create and deploy apps with Next",
+  },
+];
+
+export const certificates = [
+  {
+    name: "Web Development Fundamentals",
+    year: 2020,
+    description:
+      "Introduction to HTML, CSS, and JavaScript for building static websites.",
+  },
+  {
+    name: "Graphic Design Basics",
+    year: 2021,
+    description:
+      "Fundamental principles of graphic design, including color theory and layout design.",
+  },
+  {
+    name: "Digital Marketing Essentials",
+    year: 2022,
+    description:
+      "Introduction to online marketing strategies, including SEO, social media, and email campaigns.",
+  },
+  {
+    name: "Data Analysis with Python",
+    year: 2022,
+    description:
+      "Using Python and libraries like Pandas and Matplotlib to analyze and visualize data.",
+  },
+  {
+    name: "UX/UI Design Principles",
+    year: 2023,
+    description:
+      "Exploring user experience and user interface design principles for creating intuitive digital products.",
+  },
+];
+
+export const achievements = [
+  {
+    name: "Top Performer Award",
+    year: 2020,
+    description:
+      "Recognized as the top performer in the company for exceeding targets.",
+  },
+  {
+    name: "Community Service Medal",
+    year: 2021,
+    description:
+      "Received for volunteering over 100 hours in local community projects.",
+  },
+  {
+    name: "Innovation Challenge Winner",
+    year: 2022,
+    description:
+      "Won the company-wide innovation challenge by proposing a groundbreaking idea.",
+  },
+  {
+    name: "Leadership Excellence Award",
+    year: 2023,
+    description:
+      "Acknowledged for exceptional leadership skills and guiding the team to success.",
+  },
+  {
+    name: "Public Speaking Champion",
+    year: 2023,
+    description:
+      "Secured first place in the regional public speaking competition.",
   },
 ];

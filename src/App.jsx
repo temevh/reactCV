@@ -6,6 +6,8 @@ import Projects from "./Projects/Projects";
 import Timeline from "./components/Timeline/Timeline";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Skills from "./components/Skills/Skills";
+import Accolades from "./components/Accolades/Accolades";
+import Contact from "./components/Contact/Contact";
 
 //https://github.com/mihirc0111/Portfolio-Mihir-React-Tailwind/tree/master
 
@@ -20,6 +22,8 @@ function App() {
         <Projects />
         <Testimonials />
         <Timeline />
+        <Accolades />
+        <Contact />
         {/*Contact section*/}
       </div>
     </div>

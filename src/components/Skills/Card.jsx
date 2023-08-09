@@ -81,8 +81,8 @@ const Card = ({ skill }) => {
         />
       </div>
       {isHovered && (
-        <div className="absolute z-50 w-40 max-w-sm mt-3 p-4 bg-bodyColor border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-shadow duration-200 ease-linear transform hover:shadow-xl hover:-translate-y-1 hover:shadow-designColor/100">
-          <div className="grid grid-cols-2 gap-3">
+        <div className="absolute z-50 w-40 max-w-sm mt-3 p-4 bg-bodyColor border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-shadow duration-200 ease-linear transform hover:shadow-2xl hover:-translate-y-1 hover:shadow-designColor/100">
+          <div className="grid grid-cols-2 gap-3 ">
             <div className="flex items-center">
               <p className="text-lg pb-2 font-italic">{name}</p>
               <img
