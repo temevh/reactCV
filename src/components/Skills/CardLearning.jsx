@@ -84,7 +84,7 @@ const CardLearning = ({ skill }) => {
             <div className="flex items-center">
               <p className="text-lg pb-2 font-italic">{skill.name}</p>
               <img
-                className="h-8 w-8 max-w-full rounded-lg shadow-none ml-1"
+                className="h-10 w-10 max-w-full rounded-lg shadow-none ml-1"
                 src={skillIcon}
               />
             </div>

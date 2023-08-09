@@ -77,7 +77,7 @@ const Media = () => {
 };
 
 const iconStyle = {
-  color: "#FF6B6B",
+  color: "#ff8439",
 };
 
 export default Media;

@@ -26,18 +26,22 @@ const LeftBanner = () => {
         </h1>
         <h2 className="text-4xl font-bold text-white">
           <span>{text}</span>
-          <Cursor cursorBlinking="true" cursorStyle="|" cursorColor="#FF6B6B" />
+          <Cursor
+            cursorBlinking="true"
+            cursorStyle="|"
+            cursorColor="designColor"
+          />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I am a <b style={{ color: "#FF6B6B" }}>computer science</b> student
+          I am a <b style={{ color: "#ff8439" }}>computer science</b> student
           with a passion for everything tech related. Through my{" "}
-          <b style={{ color: "#FF6B6B" }}>
+          <b style={{ color: "#ff8439" }}>
             studies, work and personal projects{" "}
           </b>{" "}
           I have gotten used to working with a variety of
-          <b style={{ color: "#FF6B6B" }}> different technologies</b>, people
+          <b style={{ color: "#ff8439" }}> different technologies</b>, people
           and situations. Alongside my studies i work at{" "}
-          <b style={{ color: "#FF6B6B" }}> Twoday Finland</b> as a software
+          <b style={{ color: "#ff8439" }}> Twoday Finland</b> as a software
           developer
         </p>
       </div>
