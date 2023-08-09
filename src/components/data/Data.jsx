@@ -3,6 +3,7 @@ import {
   FaLaptopCode,
   FaNetworkWired,
   FaUsers,
+  FaRobot,
 } from "react-icons/fa";
 import { MdWebhook } from "react-icons/md";
 import Certificates from "../Accolades/Certificates";
@@ -73,6 +74,12 @@ export const featuresData = [
   },
   {
     id: 5,
+    icon: <FaRobot />,
+    title: "AI usage",
+    des: "I am not afraid to utilize AI to enhance my workflow and make my projects more efficient.",
+  },
+  {
+    id: 6,
     icon: <FaNetworkWired />,
     title: "Network Management",
     des: "My role as a technical specialist at Telia enabled me to work extensively with networks and advanced networking tools.",
