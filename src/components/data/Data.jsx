@@ -4,6 +4,8 @@ import {
   FaNetworkWired,
   FaUsers,
   FaRobot,
+  FaDatabase,
+  FaCodeBranch,
 } from "react-icons/fa";
 import { MdWebhook } from "react-icons/md";
 import Certificates from "../Accolades/Certificates";
@@ -51,38 +53,50 @@ export const featuresData = [
   {
     id: 1,
     icon: <FaLaptopCode />,
-    title: "Software Engineering",
-    des: "I have embarked on diverse software development ventures during my free time as well as part of my professional journey.",
+    title: "Software Wizardry",
+    des: "From coding up cool stuff in my free time to building apps as part of my journey, I've got a knack for crafting digital wonders.",
   },
   {
     id: 2,
     icon: <FaUsers />,
-    title: "User-Centered Design",
-    des: "In all my projects, I prioritize seamless user experiences and cutting-edge UI/UX designs.",
+    title: "User Whiz",
+    des: "I make sure my projects don't just look good, but they feel like a breeze to use. It's all about giving people that 'wow' experience!",
   },
   {
     id: 3,
     icon: <MdWebhook />,
-    title: "API usage",
-    des: "I have used a number of different APIs and feel comforatble using them in my projects.",
+    title: "API Magic",
+    des: "I can weave APIs into my projects like a wizard, bringing in all sorts of data and making things work like a charm with the outside world.",
   },
   {
     id: 4,
     icon: <FaMobile />,
-    title: "Mobile App Development",
-    des: "I possess hands-on experience with Flutter/Dart and am continuously expanding my proficiency in this domain.",
+    title: "App Genie",
+    des: "Flutter/Dart is my toolkit for creating mobile magic. I keep honing my skills, conjuring up apps that are sleek and user-friendly.",
   },
   {
     id: 5,
     icon: <FaRobot />,
-    title: "AI usage",
-    des: "I am not afraid to utilize AI to enhance my workflow and make my projects more efficient.",
+    title: "AI Buddy",
+    des: "I've got AI in my toolkit and I'm not afraid to use it. It's like having a tech-savvy sidekick that makes everything smarter and faster.",
   },
   {
     id: 6,
     icon: <FaNetworkWired />,
-    title: "Network Management",
-    des: "My role as a technical specialist at Telia enabled me to work extensively with networks and advanced networking tools.",
+    title: "Network Ninja",
+    des: "Thanks to my role as a tech specialist at Telia, I've dived deep into networks and their fancy tools. I'm like the ninja of network management.",
+  },
+  {
+    id: 7,
+    icon: <FaDatabase />,
+    title: "Data Dynamo",
+    des: "Databases? They're my playground. I've got a grip on the concepts and I've played around with different systems to make data dance.",
+  },
+  {
+    id: 8,
+    icon: <FaCodeBranch />,
+    title: "Version Control Guru",
+    des: "Git is my trusted sidekick in the world of code. I use it to manage, collaborate, and keep track of changes. No code mysteries escape me!",
   },
 ];
 
@@ -157,7 +171,7 @@ export const testimonials = [
     name: "Laura Lipsula",
     title: "CEO",
     org: "XYZ Company",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
   },
   {
     id: 2,

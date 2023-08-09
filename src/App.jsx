@@ -24,7 +24,6 @@ function App() {
         <Timeline />
         <Accolades />
         <Contact />
-        {/*Contact section*/}
       </div>
     </div>
   );
