@@ -150,15 +150,15 @@ export const workItems = [
     icon: "FaTruck",
   },
   {
-    workPlace: "Technical specialist",
-    title: "Telia Finland Oyj",
+    workPlace: "Telia Finland Oyj",
+    title: "Technical specialist",
     subtitle: "I worked as a technical specialist fixing networking issues",
     date: "2022",
     icon: "FaNetworkWired",
   },
   {
-    workPlace: "Software developer",
-    title: "Twoday Oyj",
+    workPlace: "Twoday Finland",
+    title: "Software developer",
     subtitle: "I am currently working as a full-stack developer at Twoday Oyj",
     date: "2023 - ",
     icon: "FaLaptop",
@@ -312,6 +312,12 @@ export const someExperience = [
     name: "Firebase",
     confidence: 60,
     where: "With personal projects",
+  },
+  {
+    id: 10,
+    name: "Linux",
+    confidence: 60,
+    where: "While using virtual machines for different purposes",
   },
 ];
 

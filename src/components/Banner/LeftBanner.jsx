@@ -39,10 +39,14 @@ const LeftBanner = () => {
             studies, work and personal projects{" "}
           </b>{" "}
           I have gotten used to working with a variety of
-          <b style={{ color: "#ff8439" }}> different technologies</b>, people
-          and situations. Alongside my studies i work at{" "}
-          <b style={{ color: "#ff8439" }}> Twoday Finland</b> as a software
-          developer
+          <b style={{ color: "#ff8439" }}>
+            {" "}
+            different technologies people and situations{" "}
+          </b>
+          Alongside my studies i as a{" "}
+          <b style={{ color: "#ff8439" }}>
+            software developer at Twoday Finland{" "}
+          </b>
         </p>
       </div>
       {/* Media */}

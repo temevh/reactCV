@@ -6,7 +6,6 @@ import { testimonials } from "../data/Data";
 const Testimonials = () => {
   return (
     <Carousel
-      className="custom-carousel"
       showStatus={false}
       showThumbs={false}
       showArrows={false}

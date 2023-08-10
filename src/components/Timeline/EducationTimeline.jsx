@@ -27,9 +27,8 @@ const EducationTimeline = () => {
           <TimelineItem>
             <TimelineOppositeContent
               key={item.title}
-              sx={{ m: "auto 0" }}
-              align="right"
               variant="body1"
+              sx={{ marginTop: 1 }}
               color="#c4cfde"
             >
               {item.date}
@@ -38,7 +37,7 @@ const EducationTimeline = () => {
               <TimelineDot color="primary" variant="outlined">
                 <FaSchool />
               </TimelineDot>
-              <TimelineConnector />
+              {item.title === "High school" ? null : <TimelineConnector />}
             </TimelineSeparator>
             <TimelineContent sx={{ py: "12px", px: 2 }}>
               <h3 className="text-xl font-bold font-titleFont text-designColor">

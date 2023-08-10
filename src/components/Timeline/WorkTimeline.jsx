@@ -34,9 +34,8 @@ const WorkTimeLine = () => {
           <TimelineItem>
             <TimelineOppositeContent
               key={item.title}
-              sx={{ m: "auto 0" }}
-              align="right"
               variant="body1"
+              sx={{ marginTop: 1 }}
               color="#c4cfde"
             >
               {item.date}
@@ -50,12 +49,15 @@ const WorkTimeLine = () => {
                 {item.icon == "FaNetworkWired" ? <FaNetworkWired /> : null}
                 {item.icon == "FaLaptop" ? <FaLaptop /> : null}
               </TimelineDot>
-              <TimelineConnector />
+              {item.workPlace === "Teemun Tötterö" ? null : (
+                <TimelineConnector />
+              )}
             </TimelineSeparator>
             <TimelineContent sx={{ py: "12px", px: 2 }}>
               <h3 className="text-xl font-bold font-titleFont text-designColor">
                 {item.title}
               </h3>
+              <p className="text-md italic text-gray-400"> {item.workPlace}</p>
               <p className="text-lg">{item.subtitle}</p>
             </TimelineContent>
           </TimelineItem>

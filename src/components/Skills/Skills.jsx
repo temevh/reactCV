@@ -23,7 +23,7 @@ const Skills = () => {
         data-te-animation-reset="true"
         data-te-animation="[slide-right_1s_ease-in-out]"
       >
-        <p className="text-left text-4xl font-bold whitespace-nowrap mt-2 mb-2">
+        <p className="text-left text-4xl font-bold whitespace-nowrap mt-2 mb-4">
           Most used
         </p>
         <div className="grid grid-cols-12 gap-22">
@@ -33,7 +33,7 @@ const Skills = () => {
         </div>
       </div>
       <div className="grid grid-cols-1  pt-2">
-        <p className="text-left text-4xl font-bold whitespace-nowrap mt-2 mb-2">
+        <p className="text-left text-4xl font-bold whitespace-nowrap mt-2 mb-4">
           Some experience
         </p>
         <div className="grid grid-cols-11 gap-2">
@@ -44,7 +44,7 @@ const Skills = () => {
       </div>
       <div className="grid grid-cols-2">
         <div className="grid grid-cols-1">
-          <p className="text-left text-4xl font-bold whitespace-nowrap mt-2 mb-2">
+          <p className="text-left text-4xl font-bold whitespace-nowrap mt-2 mb-4">
             Currently learning
           </p>
           <div className="grid grid-cols-7">
@@ -54,7 +54,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="grid grid-cols-1  pt-2">
-          <p className="text-left text-4xl font-bold whitespace-nowrap mt-2 mb-2">
+          <p className="text-left text-4xl font-bold whitespace-nowrap mt-2 mb-4">
             Wanting to learn
           </p>
           <div className="grid grid-cols-6 ">
