@@ -75,7 +75,7 @@ const Card = ({ skill }) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="w-16 h-16 rounded-lg flex items-center justify-center transition-shadow duration-200 ease-linear transform hover:shadow-xl hover:-translate-y-1 hover:shadow-designColor/100">
+      <div className="w-16 h-16 rounded-lg shadow-shadowOne flex items-center justify-center transition-shadow duration-200 ease-linear transform hover:shadow-xl hover:-translate-y-1 hover:shadow-designColor/100">
         <img
           className="h-12 w-12 max-w-full rounded-lg shadow-none"
           src={skillIcon}

@@ -168,10 +168,10 @@ export const workItems = [
 export const testimonials = [
   {
     id: 1,
-    name: "Laura Lipsula",
-    title: "CEO",
-    org: "XYZ Company",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    name: "Pekka Henriksson",
+    title: "Business Coach",
+    org: "Telia Finland Oyj",
+    desc: "In their work, Teemu has demonstrated excellent problem-solving, teamwork, and customer service skills. Teemu handled his tasks responsibly and professionally. Teemu is an active and self-initiative employee, and he was also well-liked by the work community.",
   },
   {
     id: 2,
@@ -230,7 +230,7 @@ export const mostUsed = [
     id: 8,
     name: "PostgreSQL",
     confidence: 70,
-    where: "Alongside work and school projects/assignments",
+    where: "Alongside work and school projects & assignments",
   },
   {
     id: 9,
