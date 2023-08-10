@@ -2,7 +2,7 @@ import "./App.css";
 import TopNav from "./components/TopNav";
 import Banner from "./components/Banner/Banner";
 import Features from "./Features/Features";
-import Projects from "./Projects/Projects";
+import Projects from "./components/Projects/Projects";
 import Timeline from "./components/Timeline/Timeline";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Skills from "./components/Skills/Skills";
