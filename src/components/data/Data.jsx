@@ -498,7 +498,7 @@ export const projects = [
   },
 
   {
-    title: "Mobile app to view local sports places and the weather",
+    title: "WE MO",
     desc: "A mobile app made with Android studio and Java. The app lets the user view local sports places and the weather. The app utilizes APIs to get the sports place and weather info.",
     tags: [
       {
@@ -543,7 +543,7 @@ export const projects = [
   },
   {
     title: "ReactMeals",
-    desc: "A very basic React app that utilizes firebase to store food items and user orders.",
+    desc: "A very basic React app that utilizes firebase to store food items and user orders. The user is able to add foods to their cart and proceed to checkout which opens a contact form. When confirming the order, it is sent to firebase.",
     tags: [
       {
         name: "React",
