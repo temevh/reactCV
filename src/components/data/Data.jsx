@@ -158,7 +158,8 @@ export const workItems = [
   {
     workPlace: "Twoday Finland",
     title: "Software developer",
-    subtitle: "I am currently working as a full-stack developer at Twoday Oyj",
+    subtitle:
+      "I am currently working as a junior full-stack developer at Twoday Oyj",
     date: "2023 - ",
     icon: "FaLaptop",
   },
@@ -174,10 +175,10 @@ export const testimonials = [
   },
   {
     id: 2,
-    name: "Kimmo Pekkanen",
+    name: "Harri Koljonen",
     title: "CEO",
-    org: "XYZ Company",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    org: "014-Kuljetus",
+    desc: "Teemu has demonstrated excellent abilities to work independently and efficiently in rapidly changing and challenging conditions.",
   },
   {
     id: 3,
@@ -445,7 +446,7 @@ export const achievements = [
 export const projects = [
   {
     title: "React review app",
-    desc: "Ap app that lets the user add, review, search and edit books. The app is build around a carousel type of menu where the books are displayed. The app utilizes local storage to save the books and their reviews.",
+    desc: "An app that lets the user add, review, search and edit books. The app is build around a carousel type of menu where the books are displayed. The app utilizes local storage to save the books and their reviews.",
     tags: [
       {
         name: "ReactJs",
@@ -539,5 +540,25 @@ export const projects = [
     ],
     img: "https://ggj.s3.amazonaws.com/styles/game_content__wide/games/screenshots/2022/01/138869/nayttokuva_154.png?itok=JMBNCLa2&timestamp=1643543481",
     code: "https://github.com/temevh/fgj2022",
+  },
+  {
+    title: "ReactMeals",
+    desc: "A very basic React app that utilizes firebase to store food items and user orders.",
+    tags: [
+      {
+        name: "React",
+        color: "red-600",
+      },
+      {
+        name: "Firebase",
+        color: "green-600",
+      },
+      {
+        name: "API",
+        color: "yellow-600",
+      },
+    ],
+    img: "https://user-images.githubusercontent.com/96690178/260390094-0cb0dd8d-0e6e-4054-a4a0-f1337b01e117.png",
+    code: "https://github.com/temevh/learnReact/tree/main/section18/01-starting-project",
   },
 ];

@@ -1,6 +1,4 @@
 import React from "react";
-import { FaLinkedinIn, FaDiscord } from "react-icons/fa";
-import { SiGithub, SiGmail } from "react-icons/si";
 
 const ContactLeft = () => {
   return (
@@ -20,43 +18,6 @@ const ContactLeft = () => {
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email: <span className="text-lightText">temehama(at)gmail.com</span>
         </p>
-      </div>
-      <div className="flex flex-col gap-0">
-        <h2 className="text-base uppercase font-titleFont mb-4">Find me on</h2>
-        <div className="flex gap-4">
-          <span className="bannerIcon">
-            <a
-              href="https://github.com/temevh"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <SiGithub style={iconStyle} />
-            </a>
-          </span>
-          <span className="bannerIcon">
-            <a href="mailto:temehama@gmail.com">
-              <SiGmail style={iconStyle} />
-            </a>
-          </span>
-          <span className="bannerIcon">
-            <a
-              href="https://www.linkedin.com/in/temevh/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedinIn style={iconStyle} />
-            </a>
-          </span>
-          <span className="bannerIcon">
-            <a
-              href="https://www.linkedin.com/in/temevh/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaDiscord style={iconStyle} />
-            </a>
-          </span>
-        </div>
       </div>
     </div>
   );

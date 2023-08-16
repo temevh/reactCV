@@ -21,7 +21,7 @@ export default function Card({ title, desc, tags, code, img }) {
             <div className="absolute inset-0 flex justify-end m-3 ">
               <div
                 onClick={() => window.open(code, "_blank")}
-                className="bg-slate-800 w-9 h-9 rounded-full border-[1px] border-secondary flex items-center justify-center cursor-pointer mr-2"
+                className="bg-slate-800 w-9 h-9 rounded-full border-[1px] border-secondary flex items-center justify-center cursor-pointer "
               >
                 <FaGithub />
               </div>
