@@ -1,7 +1,8 @@
 import React from "react";
-import Title from "../components/Layouts/Title";
+import Title from "../Layouts/Title";
 import Card from "./Card";
-import { featuresData } from "../components/data/Data";
+import { featuresData } from "../data/Data";
+
 const Features = () => {
   return (
     <section

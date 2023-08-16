@@ -8,7 +8,6 @@ import {
   FaCodeBranch,
 } from "react-icons/fa";
 import { MdWebhook } from "react-icons/md";
-import Certificates from "../Accolades/Certificates";
 
 export const navLinksdata = [
   {
@@ -446,7 +445,7 @@ export const achievements = [
 export const projects = [
   {
     title: "React review app",
-    desc: "Ap app that lets the user add, review, search and edit books.",
+    desc: "Ap app that lets the user add, review, search and edit books. The app is build around a carousel type of menu where the books are displayed. The app utilizes local storage to save the books and their reviews.",
     tags: [
       {
         name: "ReactJs",
@@ -457,103 +456,88 @@ export const projects = [
     code: "https://github.com/temevh/react-review-app",
   },
   {
-    title: "Web-Chat-App",
-    desc: "An app made with NextJs to help each other communicate fastly and securely",
-    tags: [
-      {
-        name: "NextJs",
-        color: "red-600",
-      },
-      {
-        name: "ChakraUI",
-        color: "green-600",
-      },
-      {
-        name: "SocketIO",
-        color: "yellow-600",
-      },
-      {
-        name: "MongoDB",
-        color: "blue-800",
-      },
-    ],
-    img: "https://user-images.githubusercontent.com/88134306/227576773-06c3a1d2-0a1a-4ab2-8d1f-e06d71408410.png",
-    link: "https://web-chat-app-brown.vercel.app",
-    code: "https://github.com/daniel-jebarson/web-chat-app",
-  },
-  {
-    title: "Exploiter(deprecated)",
-    desc: "This is the simple multi-featured discord bot which is in more than 90+ servers that resembles lords mobile as mini game",
+    title: "Hash table utilizing linked list",
+    desc: "A fairly straightforward hash table utilizing linked list. The hash table is made to be able to handle collisions and it is made to be able to handle and match a large amount of data.",
     tags: [
       {
         name: "Python",
         color: "red-600",
       },
       {
-        name: "Discord.py",
+        name: "DSA",
         color: "green-600",
       },
       {
-        name: "discord-interactions",
+        name: "Hashing",
         color: "yellow-600",
       },
-      {
-        name: "Flask",
-        color: "blue-800",
-      },
     ],
-    img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109031291522928670/Exploiter.png",
-    link: "https://drive.google.com/file/d/1npEOuOhQh-1zRiLB9fFn-6ORTwd1gZkl/view",
-    code: "https://github.com/daniel-jebarson/EXPLOITER",
+    img: "https://www.ekreative.com/wp-content/uploads/2021/03/pankaj-patel-_SgRNwAVNKw-unsplash.jpg",
+    code: "https://github.com/temevh/Algorithms-and-data-structures/tree/master/Assingment",
   },
   {
-    title: "Stock Market",
-    desc: "Stock Market Website done with ReactJs as Frontend and Express as Backend. This websites gives practice for people those who want to start using stock market. It is based on realtime update of stock value.",
+    title: "Arduino alarm system",
+    desc: "A fairly complex alarm system made with two Arduino boards which are connected with USART. The movement sensor waits for movements and triggers an alarm protocol when triggered",
     tags: [
       {
-        name: "ReactJs",
+        name: "C",
         color: "red-600",
       },
       {
-        name: "ExpressJs",
+        name: "Arduino",
         color: "green-600",
       },
       {
-        name: "MongoDB",
-        color: "blue-800",
+        name: "Atmel studio",
+        color: "yellow-600",
       },
     ],
-    img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109032447783469097/image.png",
-    link: "https://stock-market-seven.vercel.app/",
-    code: "https://github.com/daniel-jebarson/Stock-Market",
+    img: "https://user-images.githubusercontent.com/96690178/259686989-b7ab8e2d-f22a-4dca-803c-aca4170e6632.jpg",
+    code: "https://github.com/temevh/Arduino-AlarmSystem/tree/main",
   },
+
   {
-    title: "You-Farm",
-    desc: "An app made with NextJs, Machine Learning and ExpressJs to help farmers to sell their crops without intermediate. It also suggests which crops are needed for the specific soil.",
+    title: "Mobile app to view local sports places and the weather",
+    desc: "A mobile app made with Android studio and Java. The app lets the user view local sports places and the weather. The app utilizes APIs to get the sports place and weather info.",
     tags: [
       {
-        name: "NextJs",
+        name: "Java",
         color: "red-600",
       },
       {
-        name: "MaterialUI",
+        name: "Mobile",
         color: "green-600",
       },
       {
-        name: "ExpressJs",
-        color: "yellow-600",
-      },
-      {
-        name: "FireBase",
+        name: "Android studio",
         color: "blue-800",
       },
       {
-        name: "Machine Learning",
-        color: "orange-600",
+        name: "API",
+        color: "blue-800",
       },
     ],
-    img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109035277814611978/Screenshot_19.png",
-    link: "https://github.com/code-cracked/you-farm",
-    code: "https://github.com/code-cracked/you-farm",
+    img: "https://user-images.githubusercontent.com/96690178/259699276-2dee2b7f-402b-41b4-bb95-cb7971f1fcdb.jpg",
+    code: "https://github.com/temevh/OlioHT",
+  },
+  {
+    title: "Wherewolf",
+    desc: "A first person game made with Godot. In the game the player has to either save or kill the villagers of a small town, depending on the time of day. The game was made for Finnish Game Jam 2022. My main task was creating the assets/graphics.",
+    tags: [
+      {
+        name: "Godot",
+        color: "red-600",
+      },
+      {
+        name: "GAP",
+        color: "green-600",
+      },
+      {
+        name: "Game",
+        color: "yellow-600",
+      },
+    ],
+    img: "https://ggj.s3.amazonaws.com/styles/game_content__wide/games/screenshots/2022/01/138869/nayttokuva_154.png?itok=JMBNCLa2&timestamp=1643543481",
+    code: "https://github.com/temevh/fgj2022",
   },
 ];
