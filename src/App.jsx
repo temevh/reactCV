@@ -8,6 +8,7 @@ import Testimonials from "./components/Testimonials/Testimonials";
 import Skills from "./components/Skills/Skills";
 import Accolades from "./components/Accolades/Accolades";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 //https://github.com/mihirc0111/Portfolio-Mihir-React-Tailwind/tree/master
 
@@ -24,6 +25,7 @@ function App() {
         <Timeline />
         <Accolades />
         <Contact />
+        <Footer />
       </div>
     </div>
   );

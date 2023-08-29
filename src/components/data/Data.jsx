@@ -182,9 +182,9 @@ export const testimonials = [
   },
   {
     id: 3,
-    name: "Janne Talonen",
+    name: "Loreem Lipsula",
     title: "CEO",
-    org: "XYZ Company",
+    org: "Filler Oy",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
   },
 ];
@@ -379,22 +379,22 @@ export const wantingToLean = [
 
 export const certificates = [
   {
-    name: "Web Development Fundamentals",
-    year: 2020,
-    description:
-      "Introduction to HTML, CSS, and JavaScript for building static websites.",
-  },
-  {
-    name: "Graphic Design Basics",
-    year: 2021,
-    description:
-      "Fundamental principles of graphic design, including color theory and layout design.",
-  },
-  {
-    name: "Digital Marketing Essentials",
+    name: "React bootcamp",
     year: 2022,
     description:
-      "Introduction to online marketing strategies, including SEO, social media, and email campaigns.",
+      "Introduction to React. We created the book review app as a part of this course",
+  },
+  {
+    name: "Finnish Game Jam attendee",
+    year: 2022,
+    description:
+      "We enrolled and took part in the 2022 Finnish Game Jam with a few of my friends",
+  },
+  {
+    name: "University of Jyväskylä game programming course x2",
+    year: 2016,
+    description:
+      "I have been to the game making bootcamp hosted and held by the University of Jyväskylä for two times now. In 2015 and 2018",
   },
   {
     name: "Data Analysis with Python",
@@ -402,20 +402,14 @@ export const certificates = [
     description:
       "Using Python and libraries like Pandas and Matplotlib to analyze and visualize data.",
   },
-  {
-    name: "UX/UI Design Principles",
-    year: 2023,
-    description:
-      "Exploring user experience and user interface design principles for creating intuitive digital products.",
-  },
 ];
 
 export const achievements = [
   {
-    name: "Top Performer Award",
-    year: 2020,
+    name: "Edufutura hackathon winners",
+    year: 2018,
     description:
-      "Recognized as the top performer in the company for exceeding targets.",
+      "Me and my group won the hackathon where the task was to design a futuristic school",
   },
   {
     name: "Community Service Medal",
@@ -514,8 +508,8 @@ export const projects = [
         color: "blue-800",
       },
     ],
-    img: "https://user-images.githubusercontent.com/96690178/259699276-2dee2b7f-402b-41b4-bb95-cb7971f1fcdb.jpg",
-    code: "https://github.com/temevh/OlioHT",
+    img: "https://user-images.githubusercontent.com/96690178/264060743-53ccea43-4be3-426c-9f78-1f6a67245932.jpg",
+    code: "https://github.com/temevh/outhere/tree/main",
   },
   {
     title: "Wherewolf",

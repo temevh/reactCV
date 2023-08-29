@@ -1,6 +1,11 @@
 import React from "react";
-import { FaLinkedinIn, FaDiscord } from "react-icons/fa";
-import { SiGithub, SiInstagram } from "react-icons/si";
+import { FaLinkedinIn, FaDiscord, FaTelegram } from "react-icons/fa";
+import {
+  SiGithub,
+  SiInstagram,
+  SiTypescript,
+  SiNodedotjs,
+} from "react-icons/si";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -32,6 +37,15 @@ const Media = () => {
           </span>
           <span className="bannerIcon">
             <a
+              href="https://t.me/titeemu"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTelegram style={iconStyle} />
+            </a>
+          </span>
+          <span className="bannerIcon">
+            <a
               href="https://www.linkedin.com/in/temevh/"
               target="_blank"
               rel="noopener noreferrer"
@@ -41,28 +55,6 @@ const Media = () => {
           </span>
         </div>
       </div>
-      {/*<div>
-        <h2 className="text-base uppercase font-titleFont mb-4">
-          MOST USED TECHNOLOGIES
-        </h2>
-        <div className="flex gap-2">
-          <span className="bannerIcon">
-            <FaReact style={iconStyle} />
-          </span>
-          <span className="bannerIcon">
-            <SiTypescript style={iconStyle} />
-          </span>
-          <span className="bannerIcon">
-            <SiFlutter style={iconStyle} />
-          </span>
-          <span className="bannerIcon">
-            <SiPostgresql style={iconStyle} />
-          </span>
-          <span className="bannerIcon">
-            <SiMongodb style={iconStyle} />
-          </span>
-        </div>
-  </div>*/}
     </div>
   );
 };
