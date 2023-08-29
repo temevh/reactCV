@@ -498,23 +498,19 @@ export const projects = [
   },
 
   {
-    title: "WE MO",
-    desc: "A mobile app made with Android studio and Java. The app lets the user view local sports places and the weather. The app utilizes APIs to get the sports place and weather info.",
+    title: "Outhere",
+    desc: "A mobile app made Dart and Flutter which gives the user a task to complete every day, aimed to different areas of life for the user (for example sociability, learning or concentration). Very much still a work in progress!",
     tags: [
       {
-        name: "Java",
+        name: "Dart",
         color: "red-600",
       },
       {
-        name: "Mobile",
+        name: "Flutter",
         color: "green-600",
       },
       {
-        name: "Android studio",
-        color: "blue-800",
-      },
-      {
-        name: "API",
+        name: "Mobile",
         color: "blue-800",
       },
     ],
