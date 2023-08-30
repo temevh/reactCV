@@ -397,10 +397,10 @@ export const certificates = [
       "I have been to the game making bootcamp hosted and held by the University of Jyväskylä for two times now. In 2015 and 2018",
   },
   {
-    name: "Data Analysis with Python",
-    year: 2022,
+    name: "Multiple different Udemy courses",
+    year: 2023,
     description:
-      "Using Python and libraries like Pandas and Matplotlib to analyze and visualize data.",
+      "I have completed and studied multiple different udemy courses, mostly about frontend, for example React, Javascript and flutter/dart",
   },
 ];
 
@@ -412,10 +412,10 @@ export const achievements = [
       "Me and my group won the hackathon where the task was to design a futuristic school",
   },
   {
-    name: "Community Service Medal",
-    year: 2021,
+    name: "Youth counsil board member",
+    year: 2017,
     description:
-      "Received for volunteering over 100 hours in local community projects.",
+      "I was a part of the board for the Youth council of Jyväskylä (Nuva)",
   },
   {
     name: "Innovation Challenge Winner",
@@ -424,10 +424,9 @@ export const achievements = [
       "Won the company-wide innovation challenge by proposing a groundbreaking idea.",
   },
   {
-    name: "Leadership Excellence Award",
-    year: 2023,
-    description:
-      "Acknowledged for exceptional leadership skills and guiding the team to success.",
+    name: "100kg bench",
+    year: 2022,
+    description: "I finally managed to bench press 100kg 😎",
   },
   {
     name: "Public Speaking Champion",

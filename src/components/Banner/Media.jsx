@@ -60,7 +60,7 @@ const Media = () => {
           </span>
         </div>
       </div>
-      <div>
+      <div className="pl-10">
         <h2 className="text-base uppercase font-titleFont mb-4">
           Check out my resume!
         </h2>
@@ -69,6 +69,7 @@ const Media = () => {
             <a
               href="https://drive.google.com/file/d/1gCeXfTi3y7eAyHTI2DknBosLLiEcm4nE/view?usp=drive_link"
               download="TeemuHamalainenResume.pdf"
+              className="mt-3"
             >
               <FaDownload style={iconStyle} />
             </a>
@@ -77,7 +78,7 @@ const Media = () => {
               download="TeemuHamalainenResume.pdf"
               className="pb-10 hover:text-designColor"
             >
-              Download my resume
+              View/download my resume
             </a>
           </div>
         </div>
