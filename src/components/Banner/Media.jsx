@@ -1,5 +1,10 @@
 import React from "react";
-import { FaLinkedinIn, FaDiscord, FaTelegram } from "react-icons/fa";
+import {
+  FaLinkedinIn,
+  FaDiscord,
+  FaTelegram,
+  FaDownload,
+} from "react-icons/fa";
 import {
   SiGithub,
   SiInstagram,
@@ -53,6 +58,28 @@ const Media = () => {
               <FaDiscord style={iconStyle} />
             </a>
           </span>
+        </div>
+      </div>
+      <div>
+        <h2 className="text-base uppercase font-titleFont mb-4">
+          Check out my resume!
+        </h2>
+        <div className="flex gap-4">
+          <div className="flex gap-4">
+            <a
+              href="https://drive.google.com/file/d/1gCeXfTi3y7eAyHTI2DknBosLLiEcm4nE/view?usp=drive_link"
+              download="TeemuHamalainenResume.pdf"
+            >
+              <FaDownload style={iconStyle} />
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1gCeXfTi3y7eAyHTI2DknBosLLiEcm4nE/view?usp=drive_link"
+              download="TeemuHamalainenResume.pdf"
+              className="pb-10 hover:text-designColor"
+            >
+              Download my resume
+            </a>
+          </div>
         </div>
       </div>
     </div>
