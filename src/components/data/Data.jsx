@@ -385,6 +385,12 @@ export const certificates = [
       "Introduction to React. We created the book review app as a part of this course",
   },
   {
+    name: "Cyber security base",
+    year: 2022,
+    description:
+      "An open cyber security course made by the university of Helsinki",
+  },
+  {
     name: "Finnish Game Jam attendee",
     year: 2022,
     description:
@@ -418,21 +424,9 @@ export const achievements = [
       "I was a part of the board for the Youth council of Jyväskylä (Nuva)",
   },
   {
-    name: "Innovation Challenge Winner",
-    year: 2022,
-    description:
-      "Won the company-wide innovation challenge by proposing a groundbreaking idea.",
-  },
-  {
     name: "100kg bench",
     year: 2022,
     description: "I finally managed to bench press 100kg 😎",
-  },
-  {
-    name: "Public Speaking Champion",
-    year: 2023,
-    description:
-      "Secured first place in the regional public speaking competition.",
   },
 ];
 
