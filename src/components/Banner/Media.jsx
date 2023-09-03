@@ -76,7 +76,7 @@ const Media = () => {
             <a
               href="https://drive.google.com/file/d/1MOAgpIK5vFlahgzIz321nt0ggTq37-YZ/view?usp=drive_link"
               download="TeemuHamalainenResume.pdf"
-              className="pb-10 hover:text-designColor"
+              className="lg:pb-10 hover:text-designColor"
             >
               View/download my resume
             </a>

@@ -20,7 +20,7 @@ const LeftBanner = () => {
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">Hi! </h4>
-        <h1 className="text-6xl font-bold text-white">
+        <h1 className="text-5xl font-bold text-white lg:text-6xl">
           My name is
           <span className="text-designColor capitalize"> Teemu Hämäläinen</span>
         </h1>
@@ -49,7 +49,6 @@ const LeftBanner = () => {
           </b>
         </p>
       </div>
-      {/* Media */}
       <Media />
     </div>
   );

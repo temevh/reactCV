@@ -26,7 +26,7 @@ const Skills = () => {
         <p className="text-left text-4xl font-bold whitespace-nowrap mt-2 mb-4">
           Most used
         </p>
-        <div className="grid grid-cols-12 gap-22">
+        <div className="grid grid-cols-4 gap-6 lg:grid-cols-12 lg:gap-22 ">
           {mostUsed.map((skill) => (
             <Card skill={skill} />
           ))}
@@ -36,18 +36,18 @@ const Skills = () => {
         <p className="text-left text-4xl font-bold whitespace-nowrap mt-2 mb-4">
           Some experience
         </p>
-        <div className="grid grid-cols-11 gap-2">
+        <div className="grid grid-cols-4 gap-6 lg:grid-cols-12 lg:gap-22 ">
           {someExperience.map((skill) => (
             <Card skill={skill} />
           ))}
         </div>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="grid grid-cols-1">
           <p className="text-left text-4xl font-bold whitespace-nowrap mt-2 mb-4">
             Currently learning
           </p>
-          <div className="grid grid-cols-7">
+          <div className="grid grid-cols-4 gap-6 lg:grid-cols-12 lg:gap-18 ">
             {learning.map((skill) => (
               <CardLearning skill={skill} />
             ))}
@@ -57,7 +57,7 @@ const Skills = () => {
           <p className="text-left text-4xl font-bold whitespace-nowrap mt-2 mb-4">
             Wanting to learn
           </p>
-          <div className="grid grid-cols-6 ">
+          <div className="grid grid-cols-4 gap-6 lg:grid-cols-12 lg:gap-22 ">
             {wantingToLean.map((skill) => (
               <CardLearning skill={skill} />
             ))}
