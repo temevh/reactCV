@@ -9,7 +9,7 @@ const Accolades = () => {
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <Title title="Accolades" des="What have I achieved" />
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         <Certificates />
         <Achievements />
       </div>
