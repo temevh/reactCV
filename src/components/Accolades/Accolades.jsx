@@ -6,7 +6,7 @@ const Accolades = () => {
   return (
     <section
       id="accolades"
-      className="w-full py-20 border-b-[1px] border-b-black"
+      className="w-full py-10 border-b-[1px] border-b-black"
     >
       <Title title="Accolades" des="What have I achieved" />
       <div className="grid grid-cols-1 lg:grid-cols-2">

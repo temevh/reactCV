@@ -252,7 +252,7 @@ export const mostUsed = [
 
 export const someExperience = [
   {
-    id: 1,
+    id: 0,
     name: "Python",
     confidence: 40,
     where: "On a few school courses and some personal projects",
@@ -316,6 +316,12 @@ export const someExperience = [
     name: "Linux",
     confidence: 60,
     where: "While using virtual machines for different purposes",
+  },
+  {
+    id: 12,
+    name: "Atmelstudio",
+    confidence: 40,
+    where: "I have created small embedded projects using Atmel studio",
   },
 ];
 

@@ -5,7 +5,7 @@ import Title from "../Layouts/Title";
 
 const Timeline = () => {
   return (
-    <section id="career" className="w-full py-20 border-b-[1px] border-b-black">
+    <section id="career" className="w-full py-10 border-b-[1px] border-b-black">
       <Title title="Career & education" des="Where have I been" />
       <div className="flex flex-col lg:flex-row">
         <WorkTimeLine />

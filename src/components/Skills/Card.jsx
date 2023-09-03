@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import python from "../../assets/icons/python.png";
 import js from "../../assets/icons/js.png";
 import react from "../../assets/icons/react.png";
@@ -25,6 +25,7 @@ import linux from "../../assets/icons/linux.png";
 import rust from "../../assets/icons/rust.png";
 import deno from "../../assets/icons/deno.png";
 import next from "../../assets/icons/next.png";
+import atmel from "../../assets/icons/atmel.png";
 
 const skillIconMap = {
   Python: python,
@@ -53,9 +54,28 @@ const skillIconMap = {
   Rust: rust,
   Deno: deno,
   Next: next,
+  Atmelstudio: atmel,
 };
 
 const Card = ({ skill }) => {
+  const [isSmallViewport, setIsSmallViewport] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallViewport(window.innerWidth <= 768); // Adjust the breakpoint as needed
+    };
+
+    // Initial check
+    handleResize();
+
+    // Add event listener for window resize
+    window.addEventListener("resize", handleResize);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   const skillIcon = skillIconMap[skill.name];
   const [isHovered, setIsHovered] = useState(false);
 
@@ -67,7 +87,12 @@ const Card = ({ skill }) => {
     setIsHovered(false);
   };
 
-  const name = skill.name === "Androidstudio" ? "Android Studio" : skill.name;
+  const name =
+    skill.name === "Androidstudio"
+      ? "Android Studio"
+      : skill.name || skill.name === "Atmelstudio"
+      ? "Atmel studio"
+      : skill.name;
 
   return (
     <div
@@ -83,7 +108,13 @@ const Card = ({ skill }) => {
         />
       </div>
       {isHovered && (
-        <div className="absolute z-50 w-44 max-w-sm p-4 bg-bodyColor border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-shadow duration-200 ease-linear transform hover:shadow-2xl hover:-translate-y-1 hover:shadow-designColor/100">
+        <div
+          className={`absolute z-50 w-44 max-w-sm p-4 bg-bodyColor border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-shadow duration-200 ease-linear transform hover:shadow-2xl hover:-translate-y-1 hover:shadow-designColor/100 ${
+            isSmallViewport
+              ? "top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              : ""
+          }`}
+        >
           <div className="grid grid-cols-2 gap-3 justify-between">
             <div className="flex items-center">
               <p className="text-lg pb-2 font-italic ">{name}</p>
@@ -91,6 +122,7 @@ const Card = ({ skill }) => {
             <img
               className="h-12 w-12 max-w-full rounded-lg shadow-none ml-auto"
               src={skillIcon}
+              alt={name}
             />
             <p className="col-span-2 font-bold -mb-2">Where?</p>
             <p className="col-span-2 break-words">{skill.where}</p>

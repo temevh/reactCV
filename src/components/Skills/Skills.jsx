@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import Card from "./Card";
 import CardLearning from "./CardLearning";
 import Title from "../Layouts/Title";
@@ -9,11 +10,27 @@ import {
 } from "../data/Data";
 
 const Skills = () => {
+  const [isSmallViewport, setIsSmallViewport] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallViewport(window.innerWidth <= 768);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <section id="skills" className="w-full py-10 border-b-[1px] border-b-black">
       <Title title="Skills" des="What I know" />
       <p className="italic font-md -mt-8 text-slate-300/50">
-        Psst! Hover for more info
+        Psst! {isSmallViewport ? "Click" : "Hover"} for more info
       </p>
       <div
         className="grid grid-cols-1"
