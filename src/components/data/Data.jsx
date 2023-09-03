@@ -47,7 +47,6 @@ export const navLinksdata = [
   },
 ];
 
-// Features Data
 export const featuresData = [
   {
     id: 1,

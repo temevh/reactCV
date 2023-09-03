@@ -6,7 +6,7 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-1">
         <h3 className="text-3xl font-bold text-white">Teemu Hämäläinen</h3>
         <p className="text-lg font-normal text-designColor pt-4">
-          Full-stack Developer
+          Software developer
         </p>
         <p className="text-base text-gray-400 tracking-wide pb-7">
           If you feel like I could be a good fit for your team or you would like
@@ -24,7 +24,3 @@ const ContactLeft = () => {
 };
 
 export default ContactLeft;
-
-const iconStyle = {
-  color: "#ff8439",
-};
