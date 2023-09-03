@@ -33,7 +33,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I am a <b style={{ color: "#ff8439" }}>computer science</b> student
+          I am a <b style={{ color: "#ff8439" }}>computer science student </b>
           with a passion for everything tech related. Through my{" "}
           <b style={{ color: "#ff8439" }}>
             studies, work and personal projects{" "}
@@ -43,7 +43,7 @@ const LeftBanner = () => {
             {" "}
             different technologies people and situations{" "}
           </b>
-          Alongside my studies i as a{" "}
+          Alongside my studies I work as a{" "}
           <b style={{ color: "#ff8439" }}>
             software developer at Twoday Finland{" "}
           </b>

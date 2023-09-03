@@ -158,8 +158,7 @@ export const workItems = [
   {
     workPlace: "Twoday Finland",
     title: "Software developer",
-    subtitle:
-      "I am currently working as a junior full-stack developer at Twoday Oyj",
+    subtitle: "I am currently working as a software developer at Twoday Oyj",
     date: "2023 - ",
     icon: "FaLaptop",
   },
@@ -398,7 +397,7 @@ export const certificates = [
   },
   {
     name: "University of Jyväskylä game programming course x2",
-    year: 2016,
+    year: 2018,
     description:
       "I have been to the game making bootcamp hosted and held by the University of Jyväskylä for two times now. In 2015 and 2018",
   },
@@ -413,7 +412,7 @@ export const certificates = [
 export const achievements = [
   {
     name: "Edufutura hackathon winners",
-    year: 2018,
+    year: 2019,
     description:
       "Me and my group won the hackathon where the task was to design a futuristic school",
   },
@@ -424,9 +423,16 @@ export const achievements = [
       "I was a part of the board for the Youth council of Jyväskylä (Nuva)",
   },
   {
+    name: "Above average Finnish matriculation exam ",
+    year: 2020,
+    description:
+      "I managed to do well in my matriculation exams, which ended up getting me a spot in university",
+  },
+  {
     name: "100kg bench",
     year: 2022,
-    description: "I finally managed to bench press 100kg 😎",
+    description:
+      "I finally managed to bench press 100kg near the end of 2022😎",
   },
 ];
 

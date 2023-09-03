@@ -9,6 +9,7 @@ const Timeline = () => {
       <Title title="Career & education" des="Where have I been" />
       <div className="flex items-stretch">
         <WorkTimeLine />
+
         <EducationTimeline />
       </div>
     </section>
