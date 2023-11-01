@@ -5,17 +5,14 @@ import {
   FaTelegram,
   FaDownload,
 } from "react-icons/fa";
-import {
-  SiGithub,
-  SiInstagram,
-  SiTypescript,
-  SiNodedotjs,
-} from "react-icons/si";
+import { SiGithub, SiInstagram } from "react-icons/si";
 const Media = () => {
   return (
-    <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
+    <div className="flex flex-col xl:flex-row gap-6 lg:gap-0 justify-between">
       <div>
-        <h2 className="text-base uppercase font-titleFont mb-4">Find me on</h2>
+        <h2 className="text-base uppercase font-titleFont mb-4 -mt-16">
+          Find me on
+        </h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
             <a
@@ -61,7 +58,7 @@ const Media = () => {
         </div>
       </div>
       <div className="pl-10">
-        <h2 className="text-base uppercase font-titleFont mb-4">
+        <h2 className="text-base uppercase font-titleFont mb-4 lg:-mt-6">
           Check out my resume!
         </h2>
         <div className="flex gap-4">
