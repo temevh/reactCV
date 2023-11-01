@@ -3,7 +3,7 @@ import { achievements } from "../data/Data";
 const Achievements = () => {
   return (
     <div className="grid gap-3">
-      <p className="font-bold font-size text-xl">Achievements</p>
+      <p className="text-start text-slate-300/50 text-2xl">Achievements</p>
       <ul class="max-w-md divide-y divide-gray-200 dark:divide-gray-700">
         {achievements.map((achievement) => (
           <li class="pb-3 sm:pb-4">

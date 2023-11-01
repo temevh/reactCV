@@ -102,25 +102,29 @@ export const educationItems = [
   {
     title: "High school",
     subtitle: "Jyväskylän Lyseon Lukio",
+    lore: "Finished high school on time with main focus on math related courses",
     date: "2017-2020",
     icon: "school",
   },
   {
     title: "Bachelor of computer science, 1st and 2nd year",
     subtitle: "Lappeenranta University of Technology",
+    lore: "I studied at LUT for two years, in the end I had a 4.2 GPA with 140 course credits",
     date: "2021-2023",
     icon: "school",
   },
   {
     title: "Bachelor of computer science, 3rd year",
     subtitle: "Tampere university",
-    date: "2023-2024",
+    lore: "I am currently studying at Tampere university doing my bachelors degree in computer science",
+    date: "2023-2025",
     icon: "school",
   },
   {
     title: "Master of computer science",
     subtitle: "Tampere university",
-    date: "2024-",
+    lore: "I am planning on doing my masters degree in computer science at Tampere university",
+    date: "2025-",
     icon: "school",
   },
 ];
@@ -356,6 +360,11 @@ export const learning = [
     skill: 60,
     why: "I want to learn how to create more complex websites and apps",
   },
+  {
+    id: 3,
+    name: "Next",
+    why: "I am learning Next as a part of a course at school",
+  },
 ];
 
 export const wantingToLean = [
@@ -373,11 +382,6 @@ export const wantingToLean = [
     id: 3,
     name: "Deno",
     why: "I want to learn how to create and deploy apps with Deno",
-  },
-  {
-    id: 3,
-    name: "Next",
-    why: "I want to learn how to create and deploy apps with Next",
   },
 ];
 
@@ -438,6 +442,18 @@ export const achievements = [
     year: 2022,
     description:
       "I finally managed to bench press 100kg near the end of 2022😎",
+  },
+  {
+    name: "TiTe overalls team vice president",
+    year: 2023,
+    description:
+      "I was chosen as the vice president of the overall team for the computer science students of Tampere university",
+  },
+  {
+    name: "Effective team lead in a customer project",
+    year: 2023,
+    description:
+      "I was chosen as the team lead for a customer project at school. We managed to create a working prototype for the customer",
   },
 ];
 

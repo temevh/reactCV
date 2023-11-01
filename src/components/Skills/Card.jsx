@@ -87,12 +87,7 @@ const Card = ({ skill }) => {
     setIsHovered(false);
   };
 
-  const name =
-    skill.name === "Androidstudio"
-      ? "Android Studio"
-      : skill.name || skill.name === "Atmelstudio"
-      ? "Atmel studio"
-      : skill.name;
+  const name = skill.name;
 
   return (
     <div

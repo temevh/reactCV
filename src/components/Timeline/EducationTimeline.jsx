@@ -46,6 +46,7 @@ const EducationTimeline = () => {
                   {item.title}
                 </h3>
                 <p className="text-lg">{item.subtitle}</p>
+                <p className="text-sm">{item.lore}</p>
               </TimelineContent>
             </TimelineItem>
           ))}

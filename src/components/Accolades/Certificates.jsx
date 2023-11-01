@@ -3,7 +3,9 @@ import { certificates } from "../data/Data";
 const Certificates = () => {
   return (
     <div className="grid gap-3">
-      <p className="font-bold font-size text-xl">Certificates & courses</p>
+      <p className="text-start text-slate-300/50 text-2xl">
+        Certificates & courses
+      </p>
       <ul class="max-w-md divide-y divide-gray-200 dark:divide-gray-700">
         {certificates.map((certificate) => (
           <li class="pb-3 pt-3 sm:pb-4">
