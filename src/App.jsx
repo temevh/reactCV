@@ -10,8 +10,6 @@ import Accolades from "./components/Accolades/Accolades";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
-//https://github.com/mihirc0111/Portfolio-Mihir-React-Tailwind/tree/master
-
 function App() {
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText px-4">

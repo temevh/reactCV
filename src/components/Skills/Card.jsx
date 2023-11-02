@@ -21,6 +21,7 @@ import docker from "../../assets/icons/docker.png";
 import tailwind from "../../assets/icons/tailwind.png";
 import redux from "../../assets/icons/redux.png";
 import linux from "../../assets/icons/linux.png";
+import cpp from "../../assets/icons/cpp.png";
 
 import rust from "../../assets/icons/rust.png";
 import deno from "../../assets/icons/deno.png";

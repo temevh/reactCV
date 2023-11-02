@@ -344,24 +344,18 @@ export const learning = [
   },
   {
     id: 3,
-    name: "Redux",
-    skill: 60,
-    why: "I want to learn how to manage state more effectively",
-  },
-  {
-    id: 4,
     name: "React",
     skill: 60,
     why: "I want to learn how to create more complex websites and apps",
   },
   {
-    id: 5,
+    id: 4,
     name: "Node",
     skill: 60,
     why: "I want to learn how to create more complex websites and apps",
   },
   {
-    id: 3,
+    id: 5,
     name: "Next",
     why: "I am learning Next as a part of a course at school",
   },
@@ -513,7 +507,7 @@ export const projects = [
 
   {
     title: "Outhere",
-    desc: "A mobile app made Dart and Flutter which gives the user a task to complete every day, aimed to different areas of life for the user (for example sociability, learning or concentration). Very much still a work in progress!",
+    desc: "A mobile app made with Dart and Flutter which gives the user a task to complete every day. Goal is for the user to improve in one category every day (for example sociability, learning or concentration). Very much still a work in progress!",
     tags: [
       {
         name: "Dart",

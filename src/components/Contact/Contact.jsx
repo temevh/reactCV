@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Title from "../Layouts/Title";
 import ContactLeft from "./ContactLeft";
+import ContactRight from "./ContactRight";
 
 const Contact = () => {
   const [username, setUsername] = useState("");
@@ -11,13 +12,11 @@ const Contact = () => {
   const [errMsg, setErrMsg] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
 
-  // ========== Email Validation start here ==============
   const emailValidation = () => {
     return String(email)
       .toLocaleLowerCase()
       .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
   };
-  // ========== Email Validation end here ================
 
   const handleSend = (e) => {
     e.preventDefault();
@@ -35,7 +34,7 @@ const Contact = () => {
       setErrMsg("Message is required!");
     } else {
       setSuccessMsg(
-        `Thank you dear ${username}, Your Messages has been sent Successfully!`
+        `Thank you ${username}, Your Messages has been sent Successfully!`
       );
       setErrMsg("");
       setUsername("");
@@ -54,8 +53,10 @@ const Contact = () => {
         <Title title="CONTACT" des="Lets Connect!" />
       </div>
       <div className="w-full">
-        <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+        <div className="w-full h-auto flex flex-col lgl:flex-row justify-center">
           <ContactLeft />
+          {/*<ContactRight />/*}
+          {/*
           <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
             <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5">
               {errMsg && (
@@ -160,6 +161,7 @@ const Contact = () => {
               )}
             </form>
           </div>
+              */}
         </div>
       </div>
     </section>
