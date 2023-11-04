@@ -171,23 +171,22 @@ export const testimonials = [
   {
     id: 1,
     name: "Pekka Henriksson",
-    title: "Business Coach",
+    title: "Business Coach,",
     org: "Telia Finland Oyj",
     desc: "In their work, Teemu has demonstrated excellent problem-solving, teamwork, and customer service skills. Teemu handled his tasks responsibly and professionally. Teemu is an active and self-initiative employee, and he was also well-liked by the work community.",
   },
   {
     id: 2,
     name: "Harri Koljonen",
-    title: "CEO",
+    title: "CEO,",
     org: "014-Kuljetus",
     desc: "Teemu has demonstrated excellent abilities to work independently and efficiently in rapidly changing and challenging conditions.",
   },
   {
     id: 3,
-    name: "Loreem Lipsula",
-    title: "CEO",
-    org: "Filler Oy",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    name: "Juho",
+    title: "A full-time friend",
+    desc: "A pretty cool dude 👍🏻",
   },
 ];
 

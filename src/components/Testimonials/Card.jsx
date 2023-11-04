@@ -4,7 +4,7 @@ const Card = ({ testimonial }) => {
       <p className="italic font-white text-center pb-2">"{testimonial.desc}"</p>
       <p className="font-bold text-center">{testimonial.name}</p>
       <p className="text-designColor text-center">
-        {testimonial.title}, {testimonial.org}
+        {testimonial.title} {testimonial.org}
       </p>
     </div>
   );

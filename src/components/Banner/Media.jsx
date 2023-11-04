@@ -48,7 +48,7 @@ const Media = () => {
           </span>
           <span className="bannerIcon">
             <a
-              href="https://www.linkedin.com/in/temevh/"
+              href="https://www.discordapp.com/users/patruunapuristin/"
               target="_blank"
               rel="noopener noreferrer"
             >
