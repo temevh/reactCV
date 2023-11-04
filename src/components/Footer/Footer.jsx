@@ -10,7 +10,7 @@ const Footer = () => {
         className="block text-center text-gray-500 text-base py-2"
         href="https://github.com/temevh/reactCV"
       >
-        Source code in GitHub
+        Click here for source code
       </a>
       <p className="text-center text-gray-500 text-base">
         © {new Date().getFullYear()}.

@@ -25,6 +25,8 @@ import rust from "../../assets/icons/rust.png";
 import deno from "../../assets/icons/deno.png";
 import next from "../../assets/icons/next.png";
 
+import ceepeepee from "../../assets/icons/ceepeepee.png";
+
 const skillIconMap = {
   Python: python,
   Javascript: js,
@@ -37,6 +39,7 @@ const skillIconMap = {
   Typescript: ts,
   vscode: vscode,
   PostgreSQL: postgre,
+  "C++": ceepeepee,
 
   Java: java,
   C: c,

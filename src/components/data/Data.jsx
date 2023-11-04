@@ -298,7 +298,7 @@ export const someExperience = [
   },
   {
     id: 7,
-    name: "Androidstudio",
+    name: "Android studio",
     confidence: 50,
     where: "During an OOP course at school",
   },
@@ -322,7 +322,7 @@ export const someExperience = [
   },
   {
     id: 12,
-    name: "Atmelstudio",
+    name: "Atmel studio",
     confidence: 40,
     where: "I have created small embedded projects using Atmel studio",
   },
@@ -357,6 +357,11 @@ export const learning = [
     id: 5,
     name: "Next",
     why: "I am learning Next as a part of a course at school",
+  },
+  {
+    id: 6,
+    name: "C++",
+    why: "I am learning C++ as a part of a course at school",
   },
 ];
 

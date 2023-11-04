@@ -21,7 +21,6 @@ import docker from "../../assets/icons/docker.png";
 import tailwind from "../../assets/icons/tailwind.png";
 import redux from "../../assets/icons/redux.png";
 import linux from "../../assets/icons/linux.png";
-import cpp from "../../assets/icons/cpp.png";
 
 import rust from "../../assets/icons/rust.png";
 import deno from "../../assets/icons/deno.png";
@@ -46,7 +45,7 @@ const skillIconMap = {
   Dart: dart,
   Flutter: flutter,
   Firebase: firebase,
-  Androidstudio: androidstudio,
+  "Android studio": androidstudio,
   Docker: docker,
   Tailwind: tailwind,
   Redux: redux,
@@ -55,7 +54,7 @@ const skillIconMap = {
   Rust: rust,
   Deno: deno,
   Next: next,
-  Atmelstudio: atmel,
+  "Atmel studio": atmel,
 };
 
 const Card = ({ skill }) => {
@@ -89,53 +88,53 @@ const Card = ({ skill }) => {
   };
 
   const name = skill.name;
-
-  return (
-    <div
-      className="relative flex flex-col items-center"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      <div className="w-16 h-16 rounded-lg shadow-shadowOne flex items-center justify-center transition-shadow duration-200 ease-linear transform hover:shadow-xl hover:-translate-y-1 hover:shadow-designColor/100">
-        <img
-          className="h-12 w-12 max-w-full rounded-lg shadow-none"
-          src={skillIcon}
-          alt={`${skill} Icon`}
-        />
-      </div>
-      {isHovered && (
-        <div
-          className={`absolute z-50 w-44 max-w-sm p-4 bg-bodyColor border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-shadow duration-200 ease-linear transform hover:shadow-2xl hover:-translate-y-1 hover:shadow-designColor/100 ${
-            isSmallViewport
-              ? "top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-              : ""
-          }`}
-        >
-          <div className="grid grid-cols-2 gap-3 justify-between">
-            <div className="flex items-center">
-              <p className="text-lg pb-2 font-italic ">{name}</p>
-            </div>
-            <img
-              className="h-12 w-12 max-w-full rounded-lg shadow-none ml-auto"
-              src={skillIcon}
-              alt={name}
-            />
-            <p className="col-span-2 font-bold -mb-2">Where?</p>
-            <p className="col-span-2 break-words">{skill.where}</p>
-            <p className="col-span-2 font-bold">Confidence</p>
-            <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-              <div
-                className="bg-blue-600 text-md font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
-                style={{ width: `${skill.confidence}%` }}
-              >
-                {skill.confidence}
+  if (skill.name != "")
+    return (
+      <div
+        className="relative flex flex-col items-center"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        <div className="w-16 h-16 rounded-lg shadow-shadowOne flex items-center justify-center transition-shadow duration-200 ease-linear transform hover:shadow-xl hover:-translate-y-1 hover:shadow-designColor/100">
+          <img
+            className="h-12 w-12 max-w-full rounded-lg shadow-none"
+            src={skillIcon}
+            alt={`${skill} Icon`}
+          />
+        </div>
+        {isHovered && (
+          <div
+            className={`absolute z-50 w-44 max-w-sm p-4 bg-bodyColor border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-shadow duration-200 ease-linear transform hover:shadow-2xl hover:-translate-y-1 hover:shadow-designColor/100 ${
+              isSmallViewport
+                ? "top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                : ""
+            }`}
+          >
+            <div className="grid grid-cols-2 gap-3 justify-between">
+              <div className="flex items-center">
+                <p className="text-lg pb-2 font-italic ">{name}</p>
+              </div>
+              <img
+                className="h-12 w-12 max-w-full rounded-lg shadow-none ml-auto"
+                src={skillIcon}
+                alt={name}
+              />
+              <p className="col-span-2 font-bold -mb-2">Where?</p>
+              <p className="col-span-2 break-words">{skill.where}</p>
+              <p className="col-span-2 font-bold">Confidence</p>
+              <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                <div
+                  className="bg-blue-600 text-md font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+                  style={{ width: `${skill.confidence}%` }}
+                >
+                  {skill.confidence}
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      )}
-    </div>
-  );
+        )}
+      </div>
+    );
 };
 
 export default Card;
