@@ -20,7 +20,7 @@ import { workItems } from "../data/Data";
 
 const WorkTimeLine = () => {
   return (
-    <div className="lg:flex-col lg:text-center">
+    <div className="lg:flex-col lg:text-center -mt-8">
       <p className="text-center text-slate-300/50 text-2xl">Work</p>
       <Timeline
         sx={{

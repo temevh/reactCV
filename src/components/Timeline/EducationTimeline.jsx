@@ -13,7 +13,7 @@ import { educationItems } from "../data/Data";
 
 const EducationTimeline = () => {
   return (
-    <div className="lg:flex-col lg:text-center">
+    <div className="lg:flex-col lg:text-center -mt-8">
       <p className="text-center text-slate-300/50 text-2xl">Education</p>
       <Timeline
         sx={{

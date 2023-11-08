@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="w-full py-10 border-b-[1px] border-b-black"
+      className="w-full py-8 border-b-[1px] border-b-black"
     >
       <Title title="Projects" des="What I have done" />
       <ProjectsDisplay />
