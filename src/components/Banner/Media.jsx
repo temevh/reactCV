@@ -58,22 +58,25 @@ const Media = () => {
         </div>
       </div>
       <div className="pl-10">
-        <h2 className="text-base uppercase font-titleFont mb-4 lg:-mt-6">
+        <h2 className="text-base uppercase font-titleFont mb-2 lg:-mt-6">
           Check out my resume!
         </h2>
         <div className="flex gap-4">
           <div className="flex gap-4">
             <a
-              href="https://drive.google.com/file/d/1MOAgpIK5vFlahgzIz321nt0ggTq37-YZ/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1tJ6d2tI7koU0HShx-McpgnlAcBpBGvGH/view"
               download="TeemuHamalainenResume.pdf"
               className="mt-3"
+              rel="noopener noreferrer"
             >
               <FaDownload style={iconStyle} />
             </a>
             <a
-              href="https://drive.google.com/file/d/1MOAgpIK5vFlahgzIz321nt0ggTq37-YZ/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1tJ6d2tI7koU0HShx-McpgnlAcBpBGvGH/view"
               download="TeemuHamalainenResume.pdf"
               className="lg:pb-10 hover:text-designColor"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               View/download my resume
             </a>
