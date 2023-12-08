@@ -53,7 +53,7 @@ const Skills = () => {
         <p className="text-left text-4xl font-bold whitespace-nowrap mt-2 mb-4">
           Some experience
         </p>
-        <div className="grid grid-cols-4 gap-6 lg:grid-cols-12 lg:gap-22 ">
+        <div className="grid grid-cols-1 gap-6 grid-cols-10 lg:gap-22">
           {someExperience.map((skill) => (
             <Card skill={skill} />
           ))}

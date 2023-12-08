@@ -23,11 +23,17 @@ const Media = () => {
               <SiGithub style={iconStyle} />
             </a>
           </span>
+          {/* 
           <span className="bannerIcon">
-            <a href="instagram.com/titeemu">
+            <a
+              href="https://instagram.com/titeemu"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <SiInstagram style={iconStyle} />
             </a>
           </span>
+          */}
           <span className="bannerIcon">
             <a
               href="https://www.linkedin.com/in/temevh/"

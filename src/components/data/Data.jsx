@@ -275,13 +275,13 @@ export const someExperience = [
   {
     id: 3,
     name: "Dart",
-    confidence: 60,
+    confidence: 50,
     where: "During an UI/UX course at school",
   },
   {
     id: 4,
     name: "Flutter",
-    confidence: 60,
+    confidence: 50,
     where: "During an UI/UX course at school",
   },
   {
@@ -311,13 +311,13 @@ export const someExperience = [
   {
     id: 9,
     name: "Firebase",
-    confidence: 60,
+    confidence: 20,
     where: "With personal projects",
   },
   {
     id: 10,
     name: "Linux",
-    confidence: 60,
+    confidence: 40,
     where: "While using virtual machines for different purposes",
   },
   {
@@ -325,6 +325,12 @@ export const someExperience = [
     name: "Atmel studio",
     confidence: 40,
     where: "I have created small embedded projects using Atmel studio",
+  },
+  {
+    id: 13,
+    name: "Jest",
+    confidence: 40,
+    where: "Some unit testing with React projects",
   },
 ];
 

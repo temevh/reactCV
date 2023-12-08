@@ -26,6 +26,7 @@ import rust from "../../assets/icons/rust.png";
 import deno from "../../assets/icons/deno.png";
 import next from "../../assets/icons/next.png";
 import atmel from "../../assets/icons/atmel.png";
+import jest from "../../assets/icons/jest.png";
 
 const skillIconMap = {
   Python: python,
@@ -55,6 +56,7 @@ const skillIconMap = {
   Deno: deno,
   Next: next,
   "Atmel studio": atmel,
+  Jest: jest,
 };
 
 const Card = ({ skill }) => {
@@ -125,7 +127,7 @@ const Card = ({ skill }) => {
               <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
                 <div
                   className="bg-blue-600 text-md font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
-                  style={{ width: `${skill.confidence}%` }}
+                  style={{ width: `${skill.confidence + 10}%` }}
                 >
                   {skill.confidence}
                 </div>
