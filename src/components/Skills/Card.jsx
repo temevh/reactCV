@@ -27,6 +27,7 @@ import deno from "../../assets/icons/deno.png";
 import next from "../../assets/icons/next.png";
 import atmel from "../../assets/icons/atmel.png";
 import jest from "../../assets/icons/jest.png";
+import matlab from "../../assets/icons/matlab.png";
 
 const skillIconMap = {
   Python: python,
@@ -57,6 +58,7 @@ const skillIconMap = {
   Next: next,
   "Atmel studio": atmel,
   Jest: jest,
+  Matlab: matlab,
 };
 
 const Card = ({ skill }) => {

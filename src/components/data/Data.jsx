@@ -332,6 +332,12 @@ export const someExperience = [
     confidence: 40,
     where: "Some unit testing with React projects",
   },
+  {
+    id: 14,
+    name: "Matlab",
+    confidence: 30,
+    where: "Some very basic calculations and operations",
+  },
 ];
 
 export const learning = [
