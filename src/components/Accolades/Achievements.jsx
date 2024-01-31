@@ -1,11 +1,13 @@
 import { achievements } from "../data/Data";
 
 const Achievements = () => {
+  const sortedAchievements = achievements.sort((a, b) => b.year - a.year);
+
   return (
     <div className="grid gap-3">
       <p className="text-start text-slate-300/50 text-2xl">Achievements</p>
       <ul class="max-w-md divide-y divide-gray-200 dark:divide-gray-700">
-        {achievements.map((achievement) => (
+        {sortedAchievements.map((achievement) => (
           <li class="pb-3 sm:pb-4">
             <div class="flex items-center space-x-4 pb-2">
               <div class="flex-1 min-w-0">

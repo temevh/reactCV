@@ -461,7 +461,7 @@ export const achievements = [
   },
   {
     name: "TiTe overalls team vice president",
-    year: 2023,
+    year: 2024,
     description:
       "I was chosen as the vice president of the overall team for the computer science students of Tampere university",
   },
