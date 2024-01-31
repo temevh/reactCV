@@ -583,6 +583,10 @@ export const projects = [
         name: "Node",
         color: "yellow-600",
       },
+      {
+        name: "Next.js",
+        color: "yellow-600",
+      },
     ],
     img: "https://private-user-images.githubusercontent.com/96690178/301171252-0b98a153-8503-4cb5-a19e-0c5f57093201.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY3MDczNzQsIm5iZiI6MTcwNjcwNzA3NCwicGF0aCI6Ii85NjY5MDE3OC8zMDExNzEyNTItMGI5OGExNTMtODUwMy00Y2I1LWExOWUtMGM1ZjU3MDkzMjAxLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTMxVDEzMTc1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc4NWU0YjEwNDA0ODkyNDNlNDA2ZTg5YjJjNWRjNjliODk4MWViZTVmM2NhMTNiM2Y4ZjViMzAzNTI0M2E5YzQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.vv1c2ZDc7LKXjD4QGc3qqszF7UUhKiBCndzS0NGhPSA",
     code: "https://github.com/PROJ-A2023-G08/maltas-data-dashboard",
