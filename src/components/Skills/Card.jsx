@@ -28,6 +28,7 @@ import next from "../../assets/icons/next.png";
 import atmel from "../../assets/icons/atmel.png";
 import jest from "../../assets/icons/jest.png";
 import matlab from "../../assets/icons/matlab.png";
+import ceepeepee from "../../assets/icons/ceepeepee.png";
 
 const skillIconMap = {
   Python: python,
@@ -41,6 +42,7 @@ const skillIconMap = {
   Typescript: ts,
   vscode: vscode,
   PostgreSQL: postgre,
+  "C++": ceepeepee,
 
   Java: java,
   C: c,

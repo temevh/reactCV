@@ -338,6 +338,16 @@ export const someExperience = [
     confidence: 30,
     where: "Some very basic calculations and operations",
   },
+  {
+    id: 6,
+    name: "C++",
+    why: "I am learning C++ as a part of a course at school",
+  },
+  {
+    id: 5,
+    name: "Next",
+    why: "I am learning Next as a part of a course at school",
+  },
 ];
 
 export const learning = [
@@ -365,15 +375,11 @@ export const learning = [
     skill: 60,
     why: "I want to learn how to create more complex websites and apps",
   },
-  {
-    id: 5,
-    name: "Next",
-    why: "I am learning Next as a part of a course at school",
-  },
+
   {
     id: 6,
-    name: "C++",
-    why: "I am learning C++ as a part of a course at school",
+    name: "Python",
+    why: "I use Python to implement graph algorithms as a part of a course",
   },
 ];
 
