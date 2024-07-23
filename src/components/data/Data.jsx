@@ -355,7 +355,7 @@ export const learning = [
     id: 2,
     name: "Tailwind",
     skill: 40,
-    why: "I want to learn how to create stylish websites",
+    why: "Applying tailwind where possible",
   },
   {
     id: 3,
@@ -367,18 +367,19 @@ export const learning = [
     id: 4,
     name: "Node",
     skill: 60,
-    why: "I want to learn how to create more complex websites and apps",
-  },
-
-  {
-    id: 6,
-    name: "Python",
-    why: "I use Python to implement graph algorithms as a part of a course",
+    why: "Using node to run basic apps/websites",
   },
   {
-    id: 6,
-    name: "Java",
-    why: "I am learning java as a part of my current OOP course",
+    id: 5,
+    name: "API",
+    skill: 40,
+    why: "Using different types of API's (mainly openapi) for projects",
+  },
+  {
+    id: 5,
+    name: "C",
+    skill: 40,
+    why: "I am doing a course on C on my freetime",
   },
 ];
 

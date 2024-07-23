@@ -25,6 +25,7 @@ import rust from "../../assets/icons/rust.png";
 import deno from "../../assets/icons/deno.png";
 import next from "../../assets/icons/next.png";
 
+import api from "../../assets/icons/api.png";
 import ceepeepee from "../../assets/icons/ceepeepee.png";
 
 const skillIconMap = {
@@ -50,6 +51,7 @@ const skillIconMap = {
   Docker: docker,
   Tailwind: tailwind,
   Redux: redux,
+  API: api,
 
   Rust: rust,
   Deno: deno,
