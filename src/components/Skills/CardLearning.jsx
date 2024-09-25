@@ -24,6 +24,7 @@ import redux from "../../assets/icons/redux.png";
 import rust from "../../assets/icons/rust.png";
 import deno from "../../assets/icons/deno.png";
 import next from "../../assets/icons/next.png";
+import ml from "../../assets/icons/ml.png"
 
 import api from "../../assets/icons/api.png";
 import ceepeepee from "../../assets/icons/ceepeepee.png";
@@ -56,6 +57,7 @@ const skillIconMap = {
   Rust: rust,
   Deno: deno,
   Next: next,
+  ML: ml
 };
 
 const CardLearning = ({ skill }) => {
