@@ -399,6 +399,11 @@ export const wantingToLean = [
     name: "Deno",
     why: "I want to learn how to create and deploy apps with Deno",
   },
+  {
+    id: 4,
+    name: "ML",
+    why: "I want to learn the basics of machine learning and how to utilize it",
+  },
 ];
 
 export const certificates = [
