@@ -650,7 +650,7 @@ export const projects = [
         color: "red-600",
       },
     ],
-    img: "https://private-user-images.githubusercontent.com/96690178/385748230-6c0fc3d6-0762-4abe-b53b-034311ffae1b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE1MDAxMjgsIm5iZiI6MTczMTQ5OTgyOCwicGF0aCI6Ii85NjY5MDE3OC8zODU3NDgyMzAtNmMwZmMzZDYtMDc2Mi00YWJlLWI1M2ItMDM0MzExZmZhZTFiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTEzVDEyMTAyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRkYjkyZGZjNmU2ZDQyNWI5NjhjN2Y4ODBkNmI5OWZmYmNmZjVmODZlMWU5NWVmNTZmNDZkOWE3ZGZiMWViYTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.uWBqo__LPs4NZb_sPzIDFa1XghJ8qXYSVNxQKmmdoDs",
+    img: "https://i.ibb.co/XWrHknw/vm3.png",
     code: "https://github.com/temevh/valuework",
   },
 ];
