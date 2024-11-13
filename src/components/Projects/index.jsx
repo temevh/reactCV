@@ -2,7 +2,7 @@ import Card from "./Card";
 import { projects } from "../data/Data";
 export default function ProjectsDisplay() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 justify-center w-full p-4 -mt-10 gap-6">
+    <div className="grid grid-cols-1 lg:grid-cols-4 justify-center w-full p-4 -mt-10 gap-6">
       {projects.map((project, ind) => {
         return (
           <div

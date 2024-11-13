@@ -204,6 +204,13 @@ export const mostUsed = [
     where: "At work and during personal projects",
   },
   {
+    id: 15,
+    name: "API",
+    confidence: 70,
+    where:
+      "Using different types of API's (mainly openapi) for projects at work, school and on my freetime",
+  },
+  {
     id: 4,
     name: "Html",
     confidence: 60,
@@ -224,13 +231,13 @@ export const mostUsed = [
   {
     id: 7,
     name: "MongoDb",
-    confidence: 40,
+    confidence: 70,
     where: "Alongside work projects",
   },
   {
     id: 8,
     name: "PostgreSQL",
-    confidence: 70,
+    confidence: 30,
     where: "Alongside work and school projects & assignments",
   },
   {
@@ -371,12 +378,6 @@ export const learning = [
   },
   {
     id: 5,
-    name: "API",
-    skill: 40,
-    why: "Using different types of API's (mainly openapi) for projects",
-  },
-  {
-    id: 5,
     name: "C",
     skill: 40,
     why: "I am doing a course on C on my freetime",
@@ -407,6 +408,12 @@ export const wantingToLean = [
 ];
 
 export const certificates = [
+  {
+    name: "Junction hackathon",
+    year: 2024,
+    description:
+      "I participated in a hackathon with a few of my friends and created a working full-stack app",
+  },
   {
     name: "React bootcamp",
     year: 2022,
@@ -480,36 +487,28 @@ export const achievements = [
 
 export const projects = [
   {
-    title: "React review app",
-    desc: "An app that lets the user add, review, search and edit books. The app is build around a carousel type of menu where the books are displayed. The app utilizes local storage to save the books and their reviews.",
+    title: "Tuuraaja",
+    desc: "Tuuraaja is a full-stack app made to make it easier for schools to find and contact substitutes on a short notice. The substitute candidates select the days on which they are available and what subjects they are able to teach. ",
     tags: [
       {
         name: "ReactJs",
         color: "red-600",
       },
-    ],
-    img: "https://user-images.githubusercontent.com/37696410/212696470-7da86ac0-c80c-4921-99df-e725be4b3a27.png",
-    code: "https://github.com/temevh/react-review-app",
-  },
-  {
-    title: "Hash table utilizing linked list",
-    desc: "A fairly straightforward hash table utilizing linked list. The hash table is made to be able to handle collisions and it is made to be able to handle and match a large amount of data.",
-    tags: [
       {
-        name: "Python",
+        name: "NextJs",
         color: "red-600",
       },
       {
-        name: "DSA",
-        color: "green-600",
+        name: "MongoDB",
+        color: "red-600",
       },
       {
-        name: "Hashing",
-        color: "yellow-600",
+        name: "TailwindCSS",
+        color: "red-600",
       },
     ],
-    img: "https://www.ekreative.com/wp-content/uploads/2021/03/pankaj-patel-_SgRNwAVNKw-unsplash.jpg",
-    code: "https://github.com/temevh/Algorithms-and-data-structures/tree/master/Assingment",
+    img: "https://private-user-images.githubusercontent.com/96690178/385747021-92532600-728b-476c-8507-d76ae93ff15c.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE1MDAwMzcsIm5iZiI6MTczMTQ5OTczNywicGF0aCI6Ii85NjY5MDE3OC8zODU3NDcwMjEtOTI1MzI2MDAtNzI4Yi00NzZjLTg1MDctZDc2YWU5M2ZmMTVjLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTEzVDEyMDg1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYwODhiNzE2NzM0NzdlZTAzNWUzMjRjYjdiZmNkNzU3ZTQxNjdlMjc0MjU1YjU5OWFiZWU4YTNhZDRkYzMyY2YmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.l2BhuSpiuPu8j-Pa81tLjlM85OLSXcFvEBBPwZfBjSI",
+    code: "https://github.com/temevh/tuuraaja",
   },
   {
     title: "Arduino alarm system",
@@ -550,8 +549,41 @@ export const projects = [
       },
     ],
     img: "https://user-images.githubusercontent.com/96690178/264060743-53ccea43-4be3-426c-9f78-1f6a67245932.jpg",
-    code: "https://github.com/temevh/outhere/tree/main",
+    code: "https://github.com/temevh/outhere",
   },
+  {
+    title: "React review app",
+    desc: "An app that lets the user add, review, search and edit books. The app is build around a carousel type of menu where the books are displayed. The app utilizes local storage to save the books and their reviews.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "red-600",
+      },
+    ],
+    img: "https://user-images.githubusercontent.com/37696410/212696470-7da86ac0-c80c-4921-99df-e725be4b3a27.png",
+    code: "https://github.com/temevh/react-review-app",
+  },
+  {
+    title: "Hash table utilizing linked list",
+    desc: "A fairly straightforward hash table utilizing linked list. The hash table is made to be able to handle collisions and it is made to be able to handle and match a large amount of data.",
+    tags: [
+      {
+        name: "Python",
+        color: "red-600",
+      },
+      {
+        name: "DSA",
+        color: "green-600",
+      },
+      {
+        name: "Hashing",
+        color: "yellow-600",
+      },
+    ],
+    img: "https://www.ekreative.com/wp-content/uploads/2021/03/pankaj-patel-_SgRNwAVNKw-unsplash.jpg",
+    code: "https://github.com/temevh/Algorithms-and-data-structures/tree/master/Assingment",
+  },
+
   {
     title: "Wherewolf",
     desc: "A first person game made with Godot. In the game the player has to either save or kill the villagers of a small town, depending on the time of day. The game was made for Finnish Game Jam 2022. My main task was creating the assets/graphics.",
@@ -595,5 +627,30 @@ export const projects = [
     ],
     img: "https://monday.com/blog/wp-content/uploads/2022/03/Untitled-188.png",
     code: "https://github.com/PROJ-A2023-G08/maltas-data-dashboard",
+  },
+
+  {
+    title: "Valuemap",
+    desc: "Valuemap matches job seekers with companies based on shared values, believes and needs. Made for Junction hackathon 2024 ",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "red-600",
+      },
+      {
+        name: "NextJs",
+        color: "red-600",
+      },
+      {
+        name: "MongoDB",
+        color: "red-600",
+      },
+      {
+        name: "TailwindCSS",
+        color: "red-600",
+      },
+    ],
+    img: "https://private-user-images.githubusercontent.com/96690178/385748230-6c0fc3d6-0762-4abe-b53b-034311ffae1b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE1MDAxMjgsIm5iZiI6MTczMTQ5OTgyOCwicGF0aCI6Ii85NjY5MDE3OC8zODU3NDgyMzAtNmMwZmMzZDYtMDc2Mi00YWJlLWI1M2ItMDM0MzExZmZhZTFiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTEzVDEyMTAyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRkYjkyZGZjNmU2ZDQyNWI5NjhjN2Y4ODBkNmI5OWZmYmNmZjVmODZlMWU5NWVmNTZmNDZkOWE3ZGZiMWViYTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.uWBqo__LPs4NZb_sPzIDFa1XghJ8qXYSVNxQKmmdoDs",
+    code: "https://github.com/temevh/valuework",
   },
 ];
