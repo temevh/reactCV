@@ -5,7 +5,7 @@ import {
   FaTelegram,
   FaDownload,
 } from "react-icons/fa";
-import { SiGithub, SiInstagram } from "react-icons/si";
+import { SiGithub } from "react-icons/si";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lg:gap-0 justify-between">
@@ -23,17 +23,6 @@ const Media = () => {
               <SiGithub style={iconStyle} />
             </a>
           </span>
-          {/* 
-          <span className="bannerIcon">
-            <a
-              href="https://instagram.com/titeemu"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <SiInstagram style={iconStyle} />
-            </a>
-          </span>
-          */}
           <span className="bannerIcon">
             <a
               href="https://www.linkedin.com/in/temevh/"
@@ -67,26 +56,25 @@ const Media = () => {
         <h2 className="text-base uppercase font-titleFont mb-2 lg:-mt-6">
           Check out my resume!
         </h2>
-        <div className="flex gap-4">
-          <div className="flex gap-4">
-            <a
-              href="https://drive.google.com/file/d/1tJ6d2tI7koU0HShx-McpgnlAcBpBGvGH/view"
-              download="TeemuHamalainenResume.pdf"
-              className="mt-3"
-              rel="noopener noreferrer"
-            >
-              <FaDownload style={iconStyle} />
-            </a>
-            <a
-              href="https://drive.google.com/file/d/1tJ6d2tI7koU0HShx-McpgnlAcBpBGvGH/view"
-              download="TeemuHamalainenResume.pdf"
-              className="lg:pb-10 hover:text-designColor"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View/download my resume
-            </a>
-          </div>
+        <div className="flex items-center gap-2">
+          <a
+            href="https://drive.google.com/file/d/1tJ6d2tI7koU0HShx-McpgnlAcBpBGvGH/view"
+            download="TeemuHamalainenResume.pdf"
+            className="hover:text-designColor"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaDownload style={iconStyle} />
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1tJ6d2tI7koU0HShx-McpgnlAcBpBGvGH/view"
+            download="TeemuHamalainenResume.pdf"
+            className="hover:text-designColor"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View/download my resume
+          </a>
         </div>
       </div>
     </div>

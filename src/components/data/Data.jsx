@@ -507,7 +507,7 @@ export const projects = [
         color: "red-600",
       },
     ],
-    img: "https://private-user-images.githubusercontent.com/96690178/385747021-92532600-728b-476c-8507-d76ae93ff15c.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE1MDAwMzcsIm5iZiI6MTczMTQ5OTczNywicGF0aCI6Ii85NjY5MDE3OC8zODU3NDcwMjEtOTI1MzI2MDAtNzI4Yi00NzZjLTg1MDctZDc2YWU5M2ZmMTVjLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTEzVDEyMDg1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYwODhiNzE2NzM0NzdlZTAzNWUzMjRjYjdiZmNkNzU3ZTQxNjdlMjc0MjU1YjU5OWFiZWU4YTNhZDRkYzMyY2YmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.l2BhuSpiuPu8j-Pa81tLjlM85OLSXcFvEBBPwZfBjSI",
+    img: "https://i.ibb.co/TKBdJH4/tuuraaja.jpg",
     code: "https://github.com/temevh/tuuraaja",
   },
   {
