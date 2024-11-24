@@ -58,7 +58,7 @@ const Media = () => {
         </h2>
         <div className="flex items-center gap-2">
           <a
-            href="https://drive.google.com/file/d/1tJ6d2tI7koU0HShx-McpgnlAcBpBGvGH/view"
+            href="https://drive.google.com/file/d/1E7zyljzi5_CsHjGF4510s63GfcR8mCzs/view?usp=sharing"
             download="TeemuHamalainenResume.pdf"
             className="hover:text-designColor"
             target="_blank"
@@ -67,7 +67,7 @@ const Media = () => {
             <FaDownload style={iconStyle} />
           </a>
           <a
-            href="https://drive.google.com/file/d/1tJ6d2tI7koU0HShx-McpgnlAcBpBGvGH/view"
+            href="https://drive.google.com/file/d/1E7zyljzi5_CsHjGF4510s63GfcR8mCzs/view?usp=sharing"
             download="TeemuHamalainenResume.pdf"
             className="hover:text-designColor"
             target="_blank"
