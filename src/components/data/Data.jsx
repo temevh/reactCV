@@ -208,7 +208,7 @@ export const mostUsed = [
     id: 7,
     name: "MongoDb",
     confidence: 70,
-    where: "My go to database",
+    where: "My go to database for all projects",
   },
   {
     id: 6,
@@ -241,7 +241,7 @@ export const mostUsed = [
     name: "API",
     confidence: 70,
     where:
-      "Using different types of API's (mainly openapi) for projects at work, school and on my freetime",
+      "Using different types of API's for projects at work, school and on my freetime",
   },
 
   {
@@ -254,7 +254,7 @@ export const mostUsed = [
     id: 10,
     name: "Typescript",
     confidence: 35,
-    where: "Using alongside React with some work projects mainly",
+    where: "Using alongside React on some projects, mainly at work",
   },
   {
     id: 11,
@@ -293,20 +293,20 @@ export const someExperience = [
     id: 3,
     name: "Dart",
     confidence: 50,
-    where: "During an UI/UX course at school",
+    where: "On a few school courses and a personal project",
   },
   {
     id: 4,
     name: "Flutter",
     confidence: 50,
-    where: "During an UI/UX course at school",
+    where: "On a few school courses and a personal project",
   },
 
   {
     id: 6,
     name: "Redux",
-    confidence: 30,
-    where: "In a few React projects to handle state management",
+    confidence: 20,
+    where: "In a few bigger React projects to handle state management",
   },
   {
     id: 7,
@@ -356,31 +356,28 @@ export const learning = [
   {
     id: 2,
     name: "Tailwind",
-    skill: 40,
-    why: "Applying tailwind where possible",
+    why: "One thing that I am focusing right now especially is creating responsive sites with tailwind",
   },
   {
     id: 3,
     name: "React",
-    skill: 60,
     why: "I want to learn how to create more complex websites and apps",
   },
   {
     id: 4,
     name: "Node",
-    skill: 60,
-    why: "Using node to run basic apps/websites",
+    why: "So far I have only used very basic functions, so now I am trying to learn it more in-depth",
   },
 
   {
     id: 6,
     name: "C++",
-    why: "I am learning C++ as a part of a course at school",
+    why: "I want to learn more C++ mainly cause its a neat language lol. Currently making a text-based RPG with C++",
   },
   {
     id: 5,
     name: "Next",
-    why: "I am learning Next as a part of a course at school",
+    why: "I have started to use Next for my full-stack applications and trying to become as effective with it as possible",
   },
 ];
 
