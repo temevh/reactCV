@@ -195,8 +195,41 @@ export const mostUsed = [
     id: 2,
     name: "React",
     confidence: 75,
-    where: "In different projects, mainly at work",
+    where: "I use react for pretty much all of my front-end projects",
   },
+  {
+    id: 8,
+    name: "Tailwind",
+    confidence: 70,
+    where:
+      "Multiple different front-end projects, like this website for example",
+  },
+  {
+    id: 7,
+    name: "MongoDb",
+    confidence: 70,
+    where: "My go to database",
+  },
+  {
+    id: 6,
+    name: "Node",
+    confidence: 40,
+    where: "With work and personal projects",
+  },
+  {
+    id: 4,
+    name: "Html",
+    confidence: 60,
+    where:
+      "I try to use pure html in my front-end projects as much as possible",
+  },
+  {
+    id: 5,
+    name: "CSS",
+    confidence: 60,
+    where: "Alongside tailwind mostly",
+  },
+
   {
     id: 3,
     name: "Javascript",
@@ -210,36 +243,7 @@ export const mostUsed = [
     where:
       "Using different types of API's (mainly openapi) for projects at work, school and on my freetime",
   },
-  {
-    id: 4,
-    name: "Html",
-    confidence: 60,
-    where: "At work and during personal projects, some school projects",
-  },
-  {
-    id: 5,
-    name: "CSS",
-    confidence: 60,
-    where: "At work and during personal projects, some school projects",
-  },
-  {
-    id: 6,
-    name: "Node",
-    confidence: 35,
-    where: "With work projects",
-  },
-  {
-    id: 7,
-    name: "MongoDb",
-    confidence: 70,
-    where: "Alongside work projects",
-  },
-  {
-    id: 8,
-    name: "PostgreSQL",
-    confidence: 30,
-    where: "Alongside work and school projects & assignments",
-  },
+
   {
     id: 9,
     name: "Git",
@@ -274,6 +278,12 @@ export const someExperience = [
     where: "During an OOP course at school",
   },
   {
+    id: 5,
+    name: "PostgreSQL",
+    confidence: 30,
+    where: "Alongside work and school projects & assignments",
+  },
+  {
     id: 2,
     name: "C",
     confidence: 40,
@@ -291,12 +301,7 @@ export const someExperience = [
     confidence: 50,
     where: "During an UI/UX course at school",
   },
-  {
-    id: 5,
-    name: "Tailwind",
-    confidence: 40,
-    where: "Creating this website",
-  },
+
   {
     id: 6,
     name: "Redux",
@@ -345,16 +350,6 @@ export const someExperience = [
     confidence: 30,
     where: "Some very basic calculations and operations",
   },
-  {
-    id: 6,
-    name: "C++",
-    why: "I am learning C++ as a part of a course at school",
-  },
-  {
-    id: 5,
-    name: "Next",
-    why: "I am learning Next as a part of a course at school",
-  },
 ];
 
 export const learning = [
@@ -376,11 +371,16 @@ export const learning = [
     skill: 60,
     why: "Using node to run basic apps/websites",
   },
+
+  {
+    id: 6,
+    name: "C++",
+    why: "I am learning C++ as a part of a course at school",
+  },
   {
     id: 5,
-    name: "C",
-    skill: 40,
-    why: "I am doing a course on C on my freetime",
+    name: "Next",
+    why: "I am learning Next as a part of a course at school",
   },
 ];
 
@@ -394,11 +394,6 @@ export const wantingToLean = [
     id: 2,
     name: "Python",
     why: "I want to deepen my previous knowledge of Python",
-  },
-  {
-    id: 3,
-    name: "Deno",
-    why: "I want to learn how to create and deploy apps with Deno",
   },
   {
     id: 4,
